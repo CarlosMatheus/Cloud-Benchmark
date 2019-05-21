@@ -13,6 +13,9 @@ This application is only compatible with Ubuntu 18.04.
 Run the file benchmark.py, it will install dependencies and run the benchmarks.
 
 ```bash
+wget "https://github.com/CarlosMatheus/Cloud-Benchmark/archive/master.zip"
+unzip master.zip
+cd Cloud-Benchmark-master/
 python3 benchmark.py
 ```
 
