@@ -25,6 +25,6 @@ def benchmark_call(command, benchmark_name):
     print('Starting ' + benchmark_name)
     res = os.system(command + " > " + os.path.join(dirName, benchmark_name + results_file_extension))
     if res is not None:
-        print(benchmark_name + 'ended with code: ' + res)
+        print(benchmark_name + 'ended with code: ' + str(res))
     else:
         print(benchmark_name + 'ended')
