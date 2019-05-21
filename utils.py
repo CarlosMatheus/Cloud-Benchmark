@@ -23,8 +23,12 @@ def install_application(application_name):
 
 def benchmark_call(command, benchmark_name):
     print('Starting ' + benchmark_name)
-    res = os.system(command + " > " + os.path.join(dirName, benchmark_name + results_file_extension))
-    if res is not None:
-        print(benchmark_name + 'ended with code: ' + str(res))
-    else:
-        print(benchmark_name + 'ended')
+    # res = os.system(command + " > " + os.path.join(dirName, benchmark_name + results_file_extension))
+    res = check_output(command.split(' '))
+    # if res is not None:
+        # print(benchmark_name + 'ended with code: ' + str(res))
+    # else:
+    print(benchmark_name + 'ended')
+    f = open(os.path.join(dirName, benchmark_name + results_file_extension), "w+")
+    f.write(str(res))
+    f.close()
