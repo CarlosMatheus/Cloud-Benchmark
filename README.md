@@ -1,6 +1,18 @@
 # Cloud benchmark
 
-## Instalation:
+
+
+## Run:
+
+This application is only compatible with Ubuntu 18.04.
+
+Run the file benchmark.py, it will install dependencies and run the benchmarks.
+
+```bash
+python3 benchmark.py
+```
+
+## Manual Installation:
 
 ### Geekbench
 
