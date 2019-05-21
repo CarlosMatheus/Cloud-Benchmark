@@ -6,7 +6,7 @@ Then it wheels a series of benchmark tests with these tools and saves the result
 
 After finishing the tests he does a compiled of these results and delivers you.
 
-## Run:
+## Run
 
 This application is only compatible with Ubuntu 18.04.
 
@@ -16,7 +16,7 @@ Run the file benchmark.py, it will install dependencies and run the benchmarks.
 python3 benchmark.py
 ```
 
-## Manual Installation:
+## Manual Installation
 
 ### Geekbench
 
