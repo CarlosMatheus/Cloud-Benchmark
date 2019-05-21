@@ -24,7 +24,6 @@ def install_application(application_name):
 def benchmark_call(command, benchmark_name):
     print('Starting ' + benchmark_name)
     sufix = " 2>&1 | tee -a " + os.path.join(dirName, benchmark_name + results_file_extension)
-    # if 'eek' in benchmark_name:
     os.system("echo -------------------------------" + sufix)
     os.system("date" + sufix)
     res = os.system(command + sufix)
@@ -32,9 +31,3 @@ def benchmark_call(command, benchmark_name):
         print(benchmark_name + 'ended with code: ' + str(res))
     else:
         print(benchmark_name + 'ended')
-    # else:
-    #     res = check_output(command.split(' '))
-    #     f = open(os.path.join(dirName, benchmark_name + results_file_extension), "w+")
-    #     f.write(str(res))
-    #     f.close()
-    #     print(benchmark_name + 'ended')
