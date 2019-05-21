@@ -18,7 +18,7 @@ def install_application(application_name):
     except:
         print(application_name + ' not installed')
         print('installing ' + application_name + '...')
-        os.system('apt-get install ' + application_name)
+        os.system('sudo apt-get install ' + application_name)
 
 
 def benchmark_call(command, benchmark_name):
