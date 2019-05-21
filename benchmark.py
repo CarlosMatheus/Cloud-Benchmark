@@ -11,6 +11,6 @@ install_application('stress-ng')
 if not os.path.exists(dirName):
     os.mkdir(dirName)
 
-benchmark_call("./geekbench4", 'geekbench')
+benchmark_call("./Geekbench-4.3.3-Linux/geekbench4", 'geekbench')
 benchmark_call("sysbench --test=cpu --cpu-max-prime=50000 run", 'sysbench')
 benchmark_call("stress-ng --cpu 1 --cpu-method matrixprod  --metrics-brief --perf -t 60", 'stress')
