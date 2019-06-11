@@ -6,6 +6,19 @@ Then it wheels a series of benchmark tests with these tools and saves the result
 
 After finishing the tests he does a compiled of these results and delivers you.
 
+
+## Will be using:
+
+### Sysbench
+
+It's open-source:
+    https://github.com/akopytov/sysbench
+    
+### stress-ng
+
+It's open-source:
+    https://github.com/ColinIanKing/stress-ng
+
 ## Run
 
 This application is only compatible with Ubuntu 18.04.
