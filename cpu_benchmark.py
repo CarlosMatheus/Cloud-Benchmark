@@ -9,7 +9,7 @@ if not os.path.exists(dirName):
 
 
 def print_echo(string):
-    call_command('echo ' + string, 'stress-ng')
+    call_command('echo ' + string, 'stress')
 
 
 def print_sep(size):
