@@ -24,15 +24,19 @@ def install_application(application_name):
 
 
 def benchmark_call(command, benchmark_name):
-    print('Starting ' + benchmark_name)
-    sufix = " 2>&1 | tee -a " + os.path.join(dirName, benchmark_name + results_file_extension)
-    os.system("echo -------------------------------" + sufix)
-    os.system("date" + sufix)
-    res = os.system(command + sufix)
+    call_command('echo Executing ' + benchmark_name, benchmark_name)
+    call_command("echo -------------------------------", benchmark_name)
+    call_command("date", benchmark_name)
+    res = call_command(command, benchmark_name)
     if res is not None:
         print(benchmark_name + 'ended with code: ' + str(res))
     else:
         print(benchmark_name + 'ended')
+
+
+def call_command(command, benchmark_name):
+    sufix = " 2>&1 | tee -a " + os.path.join(dirName, benchmark_name + results_file_extension)
+    return os.system(command + sufix)
 
 
 def get_public_ip():
