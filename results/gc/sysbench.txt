@@ -1,0 +1,35 @@
+Executing sysbench
+-------------------------------
+Wed Jun 12 08:03:12 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0105s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.90
+         max:                                 30.19
+         95th percentile:                     25.28
+         sum:                              10007.92
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0079/0.00
+
