@@ -5,12 +5,18 @@ install_application('iperf3')
 SERVER = 's'
 CLIENT = 'c'
 
+this_computer_name = create_folder()
+
+
+def call(command, benchmark_name):
+    benchmark_call(command, benchmark_name, this_computer_name)
+
 
 def client():
     print('You are defined as CLIENT')
     public_server_ip = input('What is the public server IP? ')
-    benchmark_call("iperf3 -c " + public_server_ip + ' -d', 'iperf3')
-    benchmark_call("ping " + public_server_ip + ' -t 8', 'ping')
+    call("iperf3 -c " + public_server_ip + ' -d', 'client_iperf3')
+    call("ping " + public_server_ip + ' -t 8', 'client_ping')
     return 0
 
 
@@ -22,7 +28,7 @@ def server():
     else:
         print('Failed to get your public IP address')
     print('Note: remember to allow income connections on your firewall')
-    benchmark_call("iperf3 -s", 'iperf3')
+    call("iperf3 -s", 'server_iperf3')
     return 0
 
 
