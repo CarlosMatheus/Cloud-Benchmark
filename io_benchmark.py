@@ -5,6 +5,7 @@ install_application('iperf3')
 SERVER = 's'
 CLIENT = 'c'
 
+
 def client():
     print('You are defined as CLIENT')
     public_server_ip = input('What is the public server IP? ')
@@ -29,6 +30,9 @@ operation_hash = {SERVER: server, CLIENT: client}
 ans = ''
 while ans != SERVER and ans != CLIENT:
     ans = input('Are you the client(c) or the server(s)?(c/s) ')
+
+if not os.path.exists(dirName):
+    os.mkdir(dirName)
 
 function = operation_hash[ans]
 
