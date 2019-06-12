@@ -57,3 +57,8 @@ sudo apt-get install stress-ng
 stress-ng --cpu 1 --cpu-method matrixprod  --metrics-brief --perf -t 60
 ```
 
+### iperf3
+
+```bash
+sudo apt-get install iperf3
+```
