@@ -1,8 +1,4 @@
-import os
 from utils import *
-
-dirName = 'results'
-results_file_extension = '.txt'
 
 install_geekbench()
 install_application('sysbench')
