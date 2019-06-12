@@ -1,0 +1,108 @@
+Executing geekbench
+-------------------------------
+Wed Jun 12 08:04:50 UTC 2019
+Geekbench 4.3.3 Tryout : http://www.geekbench.com/
+
+Geekbench 4 is in tryout mode.
+
+Geekbench 4 requires an active Internet connection when in tryout mode, and 
+automatically uploads test results to the Geekbench Browser. Other features 
+are unavailable in tryout mode.
+
+Buy a Geekbench 4 license to enable offline use and remove the limitations of 
+tryout mode.
+
+If you would like to purchase Geekbench you can do so online:
+
+  https://store.primatelabs.com/v4
+
+If you have already purchased Geekbench, enter your email address and license 
+key from your email receipt with the following command line:
+
+  ./Geekbench-4.3.3-Linux/geekbench4 -r <email address> <license key>
+
+  Running Gathering system information
+System Information
+  Operating System              Ubuntu 18.04.2 LTS 4.15.0-1032-aws x86_64
+  Model                         Xen HVM domU
+  Motherboard                   N/A
+  Memory                        984 MB 
+  BIOS                          Xen 4.2.amazon
+
+Processor Information
+  Name                          Intel Xeon E5-2676 v3
+  Topology                      1 Processor, 1 Core
+  Identifier                    GenuineIntel Family 6 Model 63 Stepping 2
+  Base Frequency                2.40 GHz
+  L1 Instruction Cache          32.0 KB
+  L1 Data Cache                 32.0 KB
+  L2 Cache                      256 KB
+  L3 Cache                      30.0 MB
+
+
+Single-Core
+  Running AES
+  Running LZMA
+  Running JPEG
+  Running Canny
+  Running Lua
+  Running Dijkstra
+  Running SQLite
+  Running HTML5 Parse
+  Running HTML5 DOM
+  Running Histogram Equalization
+  Running PDF Rendering
+  Running LLVM
+  Running Camera
+  Running SGEMM
+  Running SFFT
+  Running N-Body Physics
+  Running Ray Tracing
+  Running Rigid Body Physics
+  Running HDR
+  Running Gaussian Blur
+  Running Speech Recognition
+  Running Face Detection
+  Running Memory Copy
+  Running Memory Latency
+  Running Memory Bandwidth
+
+Multi-Core
+  Running AES
+  Running LZMA
+  Running JPEG
+  Running Canny
+  Running Lua
+  Running Dijkstra
+  Running SQLite
+  Running HTML5 Parse
+  Running HTML5 DOM
+  Running Histogram Equalization
+  Running PDF Rendering
+  Running LLVM
+  Running Camera
+  Running SGEMM
+  Running SFFT
+  Running N-Body Physics
+  Running Ray Tracing
+  Running Rigid Body Physics
+  Running HDR
+  Running Gaussian Blur
+  Running Speech Recognition
+  Running Face Detection
+  Running Memory Copy
+  Running Memory Latency
+  Running Memory Bandwidth
+
+
+Uploading results to the Geekbench Browser. This could take a minute or two 
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v4/cpu/13498523
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v4/cpu/13498523/claim?key=647747
+
