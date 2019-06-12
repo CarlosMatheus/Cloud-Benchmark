@@ -1,6 +1,8 @@
-import os
 from subprocess import check_output
+import requests
+import os
 
+URL = 'https://ipinfo.io/ip'
 dirName = 'results'
 results_file_extension = '.txt'
 
@@ -31,3 +33,11 @@ def benchmark_call(command, benchmark_name):
         print(benchmark_name + 'ended with code: ' + str(res))
     else:
         print(benchmark_name + 'ended')
+
+
+def get_public_ip():
+    try:
+        ip = requests.get(URL).text[:-1]
+    except:
+        ip = None
+    return ip
