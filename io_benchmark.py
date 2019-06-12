@@ -9,7 +9,8 @@ CLIENT = 'c'
 def client():
     print('You are defined as CLIENT')
     public_server_ip = input('What is the public server IP? ')
-    benchmark_call("iperf3 -c " + public_server_ip, 'iperf3')
+    benchmark_call("iperf3 -c " + public_server_ip + ' -d', 'iperf3')
+    benchmark_call("ping " + public_server_ip + ' -t 8', 'ping')
     return 0
 
 
