@@ -7,8 +7,9 @@ CLIENT = 'c'
 
 def client():
     print('You are defined as CLIENT')
-    public_server_ip = input('What is the public server IP?')
-    return 1
+    public_server_ip = input('What is the public server IP? ')
+    benchmark_call("iperf3 -c " + public_server_ip, 'iperf3')
+    return 0
 
 
 def server():
@@ -19,14 +20,15 @@ def server():
     else:
         print('Failed to get your public IP address')
     print('Note: remember to allow income connections on your firewall')
-    return 1
+    benchmark_call("iperf3 -s", 'iperf3')
+    return 0
 
 
 operation_hash = {SERVER: server, CLIENT: client}
 
 ans = ''
 while ans != SERVER and ans != CLIENT:
-    ans = input('You are the client(c) or server(s)?')
+    ans = input('Are you the client(c) or the server(s)?(c/s) ')
 
 function = operation_hash[ans]
 
