@@ -7,6 +7,16 @@ dirName = 'results'
 results_file_extension = '.txt'
 
 
+def create_folder():
+    this_computer_name = input('What is this computer name? ')
+
+    if not os.path.exists(dirName):
+        os.mkdir(dirName)
+    if not os.path.exists(os.path.join(dirName, this_computer_name)):
+        os.mkdir(os.path.join(dirName, this_computer_name))
+    return this_computer_name
+
+
 def install_geekbench():
     dir_name = 'Geekbench-4.3.3-Linux'
     if not os.path.exists(dir_name):
@@ -23,19 +33,20 @@ def install_application(application_name):
         os.system('sudo apt-get install ' + application_name)
 
 
-def benchmark_call(command, benchmark_name):
-    call_command('echo Executing ' + benchmark_name, benchmark_name)
-    call_command("echo -------------------------------", benchmark_name)
-    call_command("date", benchmark_name)
-    res = call_command(command, benchmark_name)
+def benchmark_call(command, benchmark_name, this_computer_name):
+    call_command('echo Executing ' + benchmark_name, benchmark_name, this_computer_name)
+    call_command("echo -------------------------------", benchmark_name, this_computer_name)
+    call_command("date", benchmark_name, this_computer_name)
+    res = call_command(command, benchmark_name, this_computer_name)
     if res is not None:
         print(benchmark_name + 'ended with code: ' + str(res))
     else:
         print(benchmark_name + 'ended')
 
 
-def call_command(command, benchmark_name):
-    sufix = " 2>&1 | tee -a " + os.path.join(dirName, benchmark_name + results_file_extension)
+def call_command(command, benchmark_name, this_computer_name):
+    base_dir = os.path.join(dirName, this_computer_name)
+    sufix = " 2>&1 | tee -a " + os.path.join(base_dir, benchmark_name + results_file_extension)
     return os.system(command + sufix)
 
 
