@@ -3,10 +3,23 @@ import requests
 import os
 
 
-NUM_ITERATIONS = 3
 URL = 'https://ipinfo.io/ip'
 dirName = 'results'
 results_file_extension = '.txt'
+
+
+def print_sep_on_console(size):
+    string = ''.join((['='] * size))
+    print(string)
+
+
+def print_title(iteration):
+    title = "Iteration " + str(iteration) + " of " + str(NUM_ITERATIONS)
+    print('\n\n\n')
+    print_sep_on_console(len(title))
+    print(title)
+    print_sep_on_console(len(title))
+    print('\n\n\n')
 
 
 def create_folder():

@@ -15,8 +15,11 @@ def call(command, benchmark_name):
 def client():
     print('You are defined as CLIENT')
     public_server_ip = input('What is the public server IP? ')
-    call("iperf3 -c " + public_server_ip + ' -d', 'client_iperf3')
-    call("ping " + public_server_ip + ' -t 8', 'client_ping')
+    num_iterations = int(input('What will be the number of iterations? '))
+    for i in range(num_iterations):
+        print_title(i+1)
+        call("iperf3 -c " + public_server_ip + ' -d', 'client_iperf3')
+        call("ping " + public_server_ip + ' -t 8', 'client_ping')
     return 0
 
 

@@ -19,15 +19,6 @@ def print_sep(size, file=True):
         print(string)
 
 
-def print_title(iteration):
-    title = "Iteration " + str(iteration) + " of " + str(NUM_ITERATIONS)
-    print('\n\n')
-    print_sep(len(title), file=False)
-    print(title)
-    print_sep(len(title), file=False)
-    print('\n\n')
-
-
 def print_with_sep(string):
     print_sep(len(string))
     print_echo(string)
@@ -38,7 +29,9 @@ def call(command, benchmark_name):
     benchmark_call(command, benchmark_name, this_computer_name)
 
 
-for i in range(NUM_ITERATIONS):
+num_iterations = int(input('What will be the number of iterations? '))
+
+for i in range(num_iterations):
     print_title(i+1)
     print_with_sep('Note: 1 bogo ops is one iteration of what the test is doing')
     print('----------------------------')

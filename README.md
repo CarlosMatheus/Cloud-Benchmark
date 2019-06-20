@@ -25,12 +25,33 @@ This application is only compatible with Ubuntu 18.04.
 
 Run the file benchmark.py, it will install dependencies and run the benchmarks.
 
+### Run cpu benchmark:
+
 ```bash
 wget "https://github.com/CarlosMatheus/Cloud-Benchmark/archive/master.zip"
 unzip master.zip
 cd Cloud-Benchmark-master/
-python3 benchmark.py
+python3 cpu_benchmark.py
 ```
+
+### Run io benchmark:
+
+#### Server
+
+```bash
+python3 io_benchmark.py
+```
+
+Server will provide you the IP to connect in the client.
+Remember to allow income connections on your firewall.
+
+#### Client
+
+```bash
+python3 io_benchmark.py
+```
+
+Access using the server IP. If you are using a VirtualBox VM, set the Network as Bridge Adapter and use the VM private IP.
 
 ## Manual Installation
 
