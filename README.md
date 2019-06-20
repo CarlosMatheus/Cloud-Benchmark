@@ -4,7 +4,7 @@ Checks the system and automatically installs the benchmark tools if they are not
 
 Then it wheels a series of benchmark tests with these tools and saves the results in text files inside the result folder.
 
-After finishing the tests he does a compiled of these results and delivers you.
+After finishing the tests he does a compiled of these results and delivers you. 
 
 
 ## Will be using:

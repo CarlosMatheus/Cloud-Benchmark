@@ -1,0 +1,560 @@
+================
+================
+===========================================================
+Note: 1 bogo ops is one iteration of what the test is doing
+===========================================================
+=======================
+Testing CPU method sdbm
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:01:41 -03 2019
+stress-ng: info:  [4609] dispatching hogs: 1 cpu
+stress-ng: info:  [4609] successful run completed in 5.00s
+stress-ng: info:  [4609] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4609]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4609] cpu              525778      5.00      4.91      0.00    105153.86    107083.10
+==================================
+Testing CPU method int128decimal64
+==================================
+Executing stress
+-------------------------------
+qui jun 20 16:01:46 -03 2019
+stress-ng: info:  [4631] dispatching hogs: 1 cpu
+stress-ng: info:  [4631] successful run completed in 5.00s
+stress-ng: info:  [4631] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4631]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4631] cpu                6998      5.00      4.93      0.00      1398.95      1419.47
+=========================
+Testing CPU method parity
+=========================
+Executing stress
+-------------------------------
+qui jun 20 16:01:51 -03 2019
+stress-ng: info:  [4653] dispatching hogs: 1 cpu
+stress-ng: info:  [4653] successful run completed in 5.01s
+stress-ng: info:  [4653] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4653]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4653] cpu              125375      5.00      4.94      0.00     25075.19     25379.55
+=======================
+Testing CPU method rand
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:01:56 -03 2019
+stress-ng: info:  [4675] dispatching hogs: 1 cpu
+stress-ng: info:  [4675] successful run completed in 5.01s
+stress-ng: info:  [4675] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4675]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4675] cpu               85074      5.00      4.94      0.00     17014.34     17221.46
+==========================
+Testing CPU method hamming
+==========================
+Executing stress
+-------------------------------
+qui jun 20 16:02:02 -03 2019
+stress-ng: info:  [4697] dispatching hogs: 1 cpu
+stress-ng: info:  [4697] successful run completed in 5.00s
+stress-ng: info:  [4697] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4697]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4697] cpu                2905      5.00      4.93      0.00       580.66       589.25
+=============================
+Testing CPU method matrixprod
+=============================
+Executing stress
+-------------------------------
+qui jun 20 16:02:07 -03 2019
+stress-ng: info:  [4719] dispatching hogs: 1 cpu
+stress-ng: info:  [4719] successful run completed in 5.00s
+stress-ng: info:  [4719] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4719]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4719] cpu                1063      5.00      4.95      0.00       212.50       214.75
+======================================================================================
+Testing CPU using all metrics, each iteration is one metric and they are done in order
+======================================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:02:12 -03 2019
+stress-ng: info:  [4741] dispatching hogs: 1 cpu
+stress-ng: info:  [4741] successful run completed in 10.00s
+stress-ng: info:  [4741] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4741]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4741] cpu                2689     10.00      9.89      0.00       268.85       271.89
+===========================================================
+Testing the hd, each iteration is executed writes and reads
+===========================================================
+Executing stress
+-------------------------------
+qui jun 20 16:02:22 -03 2019
+stress-ng: info:  [4764] dispatching hogs: 1 hdd
+stress-ng: info:  [4764] successful run completed in 10.02s
+stress-ng: info:  [4764] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4764]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4764] hdd               38447     10.02      0.01      2.03      3836.57     18846.57
+============================================================================
+Testing the memory, in which each iteration malloc, calloc, realloc and free
+============================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:02:32 -03 2019
+stress-ng: debug: [4786] 1 processor online, 1 processor configured
+stress-ng: info:  [4786] dispatching hogs: 1 vm
+stress-ng: debug: [4786] cache allocate: default cache size: 3072K
+stress-ng: debug: [4786] starting stressors
+stress-ng: debug: [4786] 1 stressor spawned
+stress-ng: debug: [4788] stress-ng-vm: started [4788] (instance 0)
+stress-ng: debug: [4788] stress-ng-vm using method 'all'
+stress-ng: debug: [4788] stress-ng-vm: exited [4788] (instance 0)
+stress-ng: debug: [4786] process [4788] terminated
+stress-ng: info:  [4786] successful run completed in 15.00s
+stress-ng: info:  [4786] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4786]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4786] vm               160758     15.00     14.42      0.30     10715.52     10921.06
+================
+================
+===========================================================
+Note: 1 bogo ops is one iteration of what the test is doing
+===========================================================
+=======================
+Testing CPU method sdbm
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:05:50 -03 2019
+stress-ng: info:  [4907] dispatching hogs: 1 cpu
+stress-ng: info:  [4907] successful run completed in 5.00s
+stress-ng: info:  [4907] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4907]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4907] cpu              523027      5.00      4.90      0.00    104604.29    106740.20
+==================================
+Testing CPU method int128decimal64
+==================================
+Executing stress
+-------------------------------
+qui jun 20 16:05:55 -03 2019
+stress-ng: info:  [4929] dispatching hogs: 1 cpu
+stress-ng: info:  [4929] successful run completed in 5.00s
+stress-ng: info:  [4929] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4929]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4929] cpu                6607      5.00      4.92      0.00      1320.90      1342.89
+=========================
+Testing CPU method parity
+=========================
+Executing stress
+-------------------------------
+qui jun 20 16:06:00 -03 2019
+stress-ng: info:  [4951] dispatching hogs: 1 cpu
+stress-ng: info:  [4951] successful run completed in 5.00s
+stress-ng: info:  [4951] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4951]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4951] cpu              125650      5.00      4.94      0.00     25130.19     25435.22
+=======================
+Testing CPU method rand
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:06:05 -03 2019
+stress-ng: info:  [4973] dispatching hogs: 1 cpu
+stress-ng: info:  [4973] successful run completed in 5.00s
+stress-ng: info:  [4973] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4973]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4973] cpu               85922      5.00      4.93      0.00     17180.86     17428.40
+==========================
+Testing CPU method hamming
+==========================
+Executing stress
+-------------------------------
+qui jun 20 16:06:10 -03 2019
+stress-ng: info:  [4995] dispatching hogs: 1 cpu
+stress-ng: info:  [4995] successful run completed in 5.00s
+stress-ng: info:  [4995] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [4995]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [4995] cpu                2929      5.00      4.93      0.00       585.76       594.12
+=============================
+Testing CPU method matrixprod
+=============================
+Executing stress
+-------------------------------
+qui jun 20 16:06:15 -03 2019
+stress-ng: info:  [5017] dispatching hogs: 1 cpu
+stress-ng: info:  [5017] successful run completed in 5.00s
+stress-ng: info:  [5017] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5017]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5017] cpu                1086      5.00      4.94      0.00       217.06       219.84
+======================================================================================
+Testing CPU using all metrics, each iteration is one metric and they are done in order
+======================================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:06:20 -03 2019
+stress-ng: info:  [5039] dispatching hogs: 1 cpu
+stress-ng: info:  [5039] successful run completed in 10.01s
+stress-ng: info:  [5039] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5039]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5039] cpu                2696     10.01      9.89      0.00       269.32       272.60
+===========================================================
+Testing the hd, each iteration is executed writes and reads
+===========================================================
+Executing stress
+-------------------------------
+qui jun 20 16:06:30 -03 2019
+stress-ng: info:  [5061] dispatching hogs: 1 hdd
+stress-ng: info:  [5061] successful run completed in 10.05s
+stress-ng: info:  [5061] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5061]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5061] hdd               45320     10.05      0.02      2.33      4509.57     19285.11
+============================================================================
+Testing the memory, in which each iteration malloc, calloc, realloc and free
+============================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:06:40 -03 2019
+stress-ng: debug: [5083] 1 processor online, 1 processor configured
+stress-ng: info:  [5083] dispatching hogs: 1 vm
+stress-ng: debug: [5083] cache allocate: default cache size: 3072K
+stress-ng: debug: [5083] starting stressors
+stress-ng: debug: [5083] 1 stressor spawned
+stress-ng: debug: [5085] stress-ng-vm: started [5085] (instance 0)
+stress-ng: debug: [5085] stress-ng-vm using method 'all'
+stress-ng: debug: [5085] stress-ng-vm: exited [5085] (instance 0)
+stress-ng: debug: [5083] process [5085] terminated
+stress-ng: info:  [5083] successful run completed in 15.01s
+stress-ng: info:  [5083] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5083]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5083] vm              1026607     15.01     13.72      1.15     68405.14     69038.80
+================
+================
+===========================================================
+Note: 1 bogo ops is one iteration of what the test is doing
+===========================================================
+=======================
+Testing CPU method sdbm
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:09:56 -03 2019
+stress-ng: info:  [5202] dispatching hogs: 1 cpu
+stress-ng: info:  [5202] successful run completed in 5.01s
+stress-ng: info:  [5202] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5202]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5202] cpu              519922      5.00      4.88      0.00    103912.53    106541.39
+==================================
+Testing CPU method int128decimal64
+==================================
+Executing stress
+-------------------------------
+qui jun 20 16:10:01 -03 2019
+stress-ng: info:  [5224] dispatching hogs: 1 cpu
+stress-ng: info:  [5224] successful run completed in 5.00s
+stress-ng: info:  [5224] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5224]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5224] cpu                7072      5.00      4.91      0.00      1414.26      1440.33
+=========================
+Testing CPU method parity
+=========================
+Executing stress
+-------------------------------
+qui jun 20 16:10:07 -03 2019
+stress-ng: info:  [5246] dispatching hogs: 1 cpu
+stress-ng: info:  [5246] successful run completed in 5.00s
+stress-ng: info:  [5246] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5246]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5246] cpu              125866      5.00      4.93      0.00     25171.38     25530.63
+=======================
+Testing CPU method rand
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:10:12 -03 2019
+stress-ng: info:  [5268] dispatching hogs: 1 cpu
+stress-ng: info:  [5268] successful run completed in 5.00s
+stress-ng: info:  [5268] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5268]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5268] cpu               85354      5.00      4.94      0.00     17065.99     17278.14
+==========================
+Testing CPU method hamming
+==========================
+Executing stress
+-------------------------------
+qui jun 20 16:10:17 -03 2019
+stress-ng: info:  [5291] dispatching hogs: 1 cpu
+stress-ng: info:  [5291] successful run completed in 5.00s
+stress-ng: info:  [5291] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5291]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5291] cpu                2960      5.00      4.95      0.00       591.81       597.98
+=============================
+Testing CPU method matrixprod
+=============================
+Executing stress
+-------------------------------
+qui jun 20 16:10:22 -03 2019
+stress-ng: info:  [5313] dispatching hogs: 1 cpu
+stress-ng: info:  [5313] successful run completed in 5.00s
+stress-ng: info:  [5313] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5313]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5313] cpu                1061      5.00      4.95      0.00       212.10       214.34
+======================================================================================
+Testing CPU using all metrics, each iteration is one metric and they are done in order
+======================================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:10:27 -03 2019
+stress-ng: info:  [5335] dispatching hogs: 1 cpu
+stress-ng: info:  [5335] successful run completed in 10.03s
+stress-ng: info:  [5335] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5335]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5335] cpu                2702     10.02      9.94      0.00       269.55       271.83
+===========================================================
+Testing the hd, each iteration is executed writes and reads
+===========================================================
+Executing stress
+-------------------------------
+qui jun 20 16:10:37 -03 2019
+stress-ng: info:  [5357] dispatching hogs: 1 hdd
+stress-ng: info:  [5357] successful run completed in 10.06s
+stress-ng: info:  [5357] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5357]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5357] hdd               46631     10.05      0.00      2.35      4638.47     19842.98
+============================================================================
+Testing the memory, in which each iteration malloc, calloc, realloc and free
+============================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:10:47 -03 2019
+stress-ng: debug: [5379] 1 processor online, 1 processor configured
+stress-ng: info:  [5379] dispatching hogs: 1 vm
+stress-ng: debug: [5379] cache allocate: default cache size: 3072K
+stress-ng: debug: [5379] starting stressors
+stress-ng: debug: [5379] 1 stressor spawned
+stress-ng: debug: [5381] stress-ng-vm: started [5381] (instance 0)
+stress-ng: debug: [5381] stress-ng-vm using method 'all'
+stress-ng: debug: [5381] stress-ng-vm: exited [5381] (instance 0)
+stress-ng: debug: [5379] process [5381] terminated
+stress-ng: info:  [5379] successful run completed in 15.02s
+stress-ng: info:  [5379] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5379]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5379] vm              1083744     15.02     13.81      1.10     72177.22     72685.71
+================
+================
+===========================================================
+Note: 1 bogo ops is one iteration of what the test is doing
+===========================================================
+=======================
+Testing CPU method sdbm
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:15:35 -03 2019
+stress-ng: info:  [5507] dispatching hogs: 1 cpu
+stress-ng: info:  [5507] successful run completed in 5.01s
+stress-ng: info:  [5507] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5507]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5507] cpu              133639      5.00      4.83      0.01     26715.07     27611.36
+==================================
+Testing CPU method int128decimal64
+==================================
+Executing stress
+-------------------------------
+qui jun 20 16:15:41 -03 2019
+stress-ng: info:  [5529] dispatching hogs: 1 cpu
+stress-ng: info:  [5529] successful run completed in 5.01s
+stress-ng: info:  [5529] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5529]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5529] cpu                1552      5.00      4.87      0.00       310.40       318.69
+=========================
+Testing CPU method parity
+=========================
+Executing stress
+-------------------------------
+qui jun 20 16:15:46 -03 2019
+stress-ng: info:  [5551] dispatching hogs: 1 cpu
+stress-ng: info:  [5551] successful run completed in 5.01s
+stress-ng: info:  [5551] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5551]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5551] cpu               29581      5.00      4.70      0.00      5915.65      6293.83
+=======================
+Testing CPU method rand
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:15:51 -03 2019
+stress-ng: info:  [5573] dispatching hogs: 1 cpu
+stress-ng: info:  [5573] successful run completed in 5.01s
+stress-ng: info:  [5573] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5573]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5573] cpu               22604      5.00      4.78      0.00      4518.31      4728.87
+==========================
+Testing CPU method hamming
+==========================
+Executing stress
+-------------------------------
+qui jun 20 16:15:57 -03 2019
+stress-ng: info:  [5595] dispatching hogs: 1 cpu
+stress-ng: info:  [5595] successful run completed in 5.08s
+stress-ng: info:  [5595] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5595]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5595] cpu                 699      5.01      4.83      0.01       139.63       144.42
+=============================
+Testing CPU method matrixprod
+=============================
+Executing stress
+-------------------------------
+qui jun 20 16:16:02 -03 2019
+stress-ng: info:  [5617] dispatching hogs: 1 cpu
+stress-ng: info:  [5617] successful run completed in 5.03s
+stress-ng: info:  [5617] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5617]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5617] cpu                 216      5.03      4.83      0.02        42.91        44.54
+======================================================================================
+Testing CPU using all metrics, each iteration is one metric and they are done in order
+======================================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:16:08 -03 2019
+stress-ng: info:  [5639] dispatching hogs: 1 cpu
+stress-ng: info:  [5639] successful run completed in 10.04s
+stress-ng: info:  [5639] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5639]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5639] cpu                 590     10.01      9.64      0.02        58.93        61.08
+===========================================================
+Testing the hd, each iteration is executed writes and reads
+===========================================================
+Executing stress
+-------------------------------
+qui jun 20 16:16:18 -03 2019
+stress-ng: info:  [5661] dispatching hogs: 1 hdd
+stress-ng: info:  [5661] successful run completed in 10.04s
+stress-ng: info:  [5661] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5661]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5661] hdd                7025     10.04      0.02      1.99       699.58      3495.02
+============================================================================
+Testing the memory, in which each iteration malloc, calloc, realloc and free
+============================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:16:29 -03 2019
+stress-ng: debug: [5683] 1 processor online, 1 processor configured
+stress-ng: info:  [5683] dispatching hogs: 1 vm
+stress-ng: debug: [5683] cache allocate: default cache size: 3072K
+stress-ng: debug: [5683] starting stressors
+stress-ng: debug: [5683] 1 stressor spawned
+stress-ng: debug: [5685] stress-ng-vm: started [5685] (instance 0)
+stress-ng: debug: [5685] stress-ng-vm using method 'all'
+stress-ng: debug: [5685] stress-ng-vm: exited [5685] (instance 0)
+stress-ng: debug: [5683] process [5685] terminated
+stress-ng: info:  [5683] successful run completed in 15.05s
+stress-ng: info:  [5683] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5683]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5683] vm               145043     15.05     12.32      2.37      9637.27      9873.59
+================
+================
+===========================================================
+Note: 1 bogo ops is one iteration of what the test is doing
+===========================================================
+=======================
+Testing CPU method sdbm
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:23:30 -03 2019
+stress-ng: info:  [5808] dispatching hogs: 1 cpu
+stress-ng: info:  [5808] successful run completed in 5.00s
+stress-ng: info:  [5808] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5808]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5808] cpu              143859      5.00      4.77      0.00     28771.56     30159.12
+==================================
+Testing CPU method int128decimal64
+==================================
+Executing stress
+-------------------------------
+qui jun 20 16:23:35 -03 2019
+stress-ng: info:  [5830] dispatching hogs: 1 cpu
+stress-ng: info:  [5830] successful run completed in 5.00s
+stress-ng: info:  [5830] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5830]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5830] cpu                1790      5.00      4.75      0.00       357.85       376.84
+=========================
+Testing CPU method parity
+=========================
+Executing stress
+-------------------------------
+qui jun 20 16:23:41 -03 2019
+stress-ng: info:  [5852] dispatching hogs: 1 cpu
+stress-ng: info:  [5852] successful run completed in 5.00s
+stress-ng: info:  [5852] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5852]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5852] cpu               32924      5.00      4.88      0.00      6584.31      6746.72
+=======================
+Testing CPU method rand
+=======================
+Executing stress
+-------------------------------
+qui jun 20 16:23:46 -03 2019
+stress-ng: info:  [5874] dispatching hogs: 1 cpu
+stress-ng: info:  [5874] successful run completed in 5.00s
+stress-ng: info:  [5874] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5874]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5874] cpu               24946      5.00      4.84      0.00      4989.16      5154.13
+==========================
+Testing CPU method hamming
+==========================
+Executing stress
+-------------------------------
+qui jun 20 16:23:51 -03 2019
+stress-ng: info:  [5896] dispatching hogs: 1 cpu
+stress-ng: info:  [5896] successful run completed in 5.00s
+stress-ng: info:  [5896] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5896]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5896] cpu                 775      5.00      4.54      0.00       154.99       170.70
+=============================
+Testing CPU method matrixprod
+=============================
+Executing stress
+-------------------------------
+qui jun 20 16:23:56 -03 2019
+stress-ng: info:  [5918] dispatching hogs: 1 cpu
+stress-ng: info:  [5918] successful run completed in 5.00s
+stress-ng: info:  [5918] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5918]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5918] cpu                 224      5.00      4.55      0.01        44.79        49.12
+======================================================================================
+Testing CPU using all metrics, each iteration is one metric and they are done in order
+======================================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:24:02 -03 2019
+stress-ng: info:  [5940] dispatching hogs: 1 cpu
+stress-ng: info:  [5940] successful run completed in 10.25s
+stress-ng: info:  [5940] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5940]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5940] cpu                 718     10.21      9.89      0.04        70.30        72.31
+===========================================================
+Testing the hd, each iteration is executed writes and reads
+===========================================================
+Executing stress
+-------------------------------
+qui jun 20 16:24:12 -03 2019
+stress-ng: info:  [5962] dispatching hogs: 1 hdd
+stress-ng: info:  [5962] successful run completed in 10.09s
+stress-ng: info:  [5962] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5962]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5962] hdd                8693     10.08      0.03      1.94       862.18      4412.69
+============================================================================
+Testing the memory, in which each iteration malloc, calloc, realloc and free
+============================================================================
+Executing stress
+-------------------------------
+qui jun 20 16:24:23 -03 2019
+stress-ng: debug: [5984] 1 processor online, 1 processor configured
+stress-ng: info:  [5984] dispatching hogs: 1 vm
+stress-ng: debug: [5984] cache allocate: default cache size: 3072K
+stress-ng: debug: [5984] starting stressors
+stress-ng: debug: [5984] 1 stressor spawned
+stress-ng: debug: [5986] stress-ng-vm: started [5986] (instance 0)
+stress-ng: debug: [5986] stress-ng-vm using method 'all'
+stress-ng: debug: [5986] stress-ng-vm: exited [5986] (instance 0)
+stress-ng: debug: [5984] process [5986] terminated
+stress-ng: info:  [5984] successful run completed in 15.02s
+stress-ng: info:  [5984] stressor       bogo ops real time  usr time  sys time   bogo ops/s   bogo ops/s
+stress-ng: info:  [5984]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [5984] vm               278854     15.02     12.58      1.80     18568.95     19391.79

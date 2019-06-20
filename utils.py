@@ -2,6 +2,8 @@ from subprocess import check_output
 import requests
 import os
 
+
+NUM_ITERATIONS = 3
 URL = 'https://ipinfo.io/ip'
 dirName = 'results'
 results_file_extension = '.txt'

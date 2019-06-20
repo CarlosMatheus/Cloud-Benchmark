@@ -1,0 +1,48 @@
+Executing geekbench
+-------------------------------
+qui jun 20 18:09:10 -03 2019
+Geekbench 4.3.3 Tryout : http://www.geekbench.com/
+
+Geekbench 4 is in tryout mode.
+
+Geekbench 4 requires an active Internet connection when in tryout mode, and 
+automatically uploads test results to the Geekbench Browser. Other features 
+are unavailable in tryout mode.
+
+Buy a Geekbench 4 license to enable offline use and remove the limitations of 
+tryout mode.
+
+If you would like to purchase Geekbench you can do so online:
+
+  https://store.primatelabs.com/v4
+
+If you have already purchased Geekbench, enter your email address and license 
+key from your email receipt with the following command line:
+
+  ./Geekbench-4.3.3-Linux/geekbench4 -r <email address> <license key>
+
+  Running Gathering system information
+System Information
+  Operating System              Ubuntu 18.04.2 LTS 4.18.0-22-generic x86_64
+  Model                         innotek GmbH VirtualBox
+  Motherboard                   Oracle Corporation VirtualBox
+  Memory                        985 MB 
+  BIOS                          innotek GmbH VirtualBox
+
+Processor Information
+  Name                          Intel Core i5-5257U
+  Topology                      1 Processor, 1 Core
+  Identifier                    GenuineIntel Family 6 Model 61 Stepping 4
+  Base Frequency                2.70 GHz
+  L1 Instruction Cache          32.0 KB
+  L1 Data Cache                 32.0 KB
+  L2 Cache                      256 KB
+  L3 Cache                      3.00 MB
+
+
+Single-Core
+  Running AES
+  Running LZMA
+  Running JPEG
+  Running Canny
+  Running Lua
