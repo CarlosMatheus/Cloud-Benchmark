@@ -9,6 +9,12 @@ import os
 from utils import get_tests_names
 
 
+benchmark_names = ['stress', 'sysbench', 'client_ping', 'client_iperf3']
+test_names = get_tests_names()
+CSV_EXTENSION = '.csv'
+dirName = 'plots'
+
+
 def integrate(lt):
     if type(lt) != type([]):
         lt = list(lt)
@@ -32,9 +38,8 @@ def get_data_frame(lt):
     return pd.DataFrame(hash_data_frame)
 
 
-benchmark_names = ['stress', 'sysbench', 'client_ping', 'client_iperf3']
-test_names = get_tests_names()
-CSV_EXTENSION = '.csv'
+if not os.path.exists(dirName):
+    os.mkdir(dirName)
 
 sns.set()
 
@@ -297,3 +302,24 @@ plt.legend(['aws unlimited', 'gc'])
 plt.xlabel('Memory bogos ops/s')
 plt.ylabel('distribution density')
 plt.show()
+
+# ====================================
+# Create bandwidth_between_clouds plot
+# ====================================
+
+client_server_path = os.path.join(treated_results_path, 'gc_client_aws_server')
+client_server_bandwidth_path = os.path.join(client_server_path, 'client_iperf3' + CSV_EXTENSION)
+
+client_server_data = pd.read_csv(client_server_bandwidth_path)
+
+gc_download_aws_upload = client_server_data.server_download
+aws_download_gc_upload = client_server_data.server_upload
+
+x_axis = [i for i in range(1, len(gc_download_aws_upload)+1)]
+
+plt.plot(x_axis, gc_download_aws_upload)
+plt.plot(x_axis, aws_download_gc_upload)
+plt.legend(['gc download/aws upload', 'aws download/gc upload'])
+plt.xlabel('iteration')
+plt.ylabel('transmission rate (Mbps)')
+plt.savefig(dirName + '/bandwidth_between_clouds.png')
