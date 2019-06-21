@@ -1,7 +1,12 @@
 import os
+from os.path import isdir
 
-tests = ['aws', 'gc', 'vm']
 dirName = 'treated_results'
+
+
+def get_tests_names():
+    dir_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'results')
+    return [f for f in os.listdir(dir_path) if isdir(os.path.join(dir_path, f))]
 
 
 def create_folder(test_name):
@@ -73,6 +78,8 @@ def treat_sysbench_result(test_name):
 
     write_results(test_name, 'sysbench', ['sysbench_primes'], results)
 
+
+tests = get_tests_names()
 
 for test in tests:
     treat_stress_result(test)
