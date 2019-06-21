@@ -32,7 +32,7 @@ def call(command, benchmark_name):
 num_iterations = int(input('What will be the number of iterations? '))
 
 for i in range(num_iterations):
-    print_title(i+1)
+    print_title(i+1, num_iterations)
     print_with_sep('Note: 1 bogo ops is one iteration of what the test is doing')
     print('----------------------------')
     print_with_sep('Testing CPU method sdbm')

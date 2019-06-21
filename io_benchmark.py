@@ -17,7 +17,7 @@ def client():
     public_server_ip = input('What is the public server IP? ')
     num_iterations = int(input('What will be the number of iterations? '))
     for i in range(num_iterations):
-        print_title(i+1)
+        print_title(i+1, num_iterations)
         call("iperf3 -c " + public_server_ip + ' -d', 'client_iperf3')
         call("ping " + public_server_ip + ' -t 8', 'client_ping')
     return 0

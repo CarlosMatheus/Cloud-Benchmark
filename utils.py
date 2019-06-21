@@ -13,8 +13,8 @@ def print_sep_on_console(size):
     print(string)
 
 
-def print_title(iteration):
-    title = "Iteration " + str(iteration) + " of " + str(NUM_ITERATIONS)
+def print_title(iteration, num_iterations):
+    title = "Iteration " + str(iteration) + " of " + str(num_iterations)
     print('\n\n\n')
     print_sep_on_console(len(title))
     print(title)
