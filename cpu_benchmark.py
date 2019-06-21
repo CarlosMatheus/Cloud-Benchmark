@@ -1,6 +1,6 @@
 from utils import *
 
-install_geekbench()
+# install_geekbench()
 install_application('sysbench')
 install_application('stress-ng')
 
@@ -54,4 +54,4 @@ for i in range(num_iterations):
     print_with_sep('Testing the memory, in which each iteration malloc, calloc, realloc and free')
     call("stress-ng --vm 1 --vm-bytes 50% --vm-method all --verify -t 15 -v --metrics-brief", 'stress')
     call("sysbench --test=cpu --cpu-max-prime=100000 run", 'sysbench')
-    call("./Geekbench-4.3.3-Linux/geekbench4", 'geekbench')
+    # call("./Geekbench-4.3.3-Linux/geekbench4", 'geekbench')
