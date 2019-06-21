@@ -19,7 +19,7 @@ def client():
     for i in range(num_iterations):
         print_title(i+1, num_iterations)
         call("iperf3 -c " + public_server_ip + ' -d', 'client_iperf3')
-        call("ping " + public_server_ip + ' -t 8', 'client_ping')
+        call("ping " + public_server_ip + ' -c 8', 'client_ping')
     return 0
 
 
