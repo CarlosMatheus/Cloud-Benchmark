@@ -17,6 +17,7 @@ def create_folder(test_name):
 
 
 def write_results(test_name, benchmark_name, tests_names, results):
+    print(results)
     create_folder(test_name)
     output_file = open('treated_results/' + test_name + '/' + benchmark_name + '.csv', 'w')
     output_file.write(','.join(tests_names) + '\n')
@@ -79,9 +80,31 @@ def treat_sysbench_result(test_name):
     write_results(test_name, 'sysbench', ['sysbench_primes'], results)
 
 
+def treat_client_ping_result(test_name):
+    input_file_name = 'client_ping'
+
+    file = open('results/' + test_name + '/' + input_file_name + '.txt', 'r')
+    text = file.read()
+
+    iteration_texts = text.split('Executing client_ping')
+    del iteration_texts[0]
+
+    iteration_texts_by_line = [n.split('\n')[4:12] for n in iteration_texts]
+
+    for idx, iteration in enumerate(iteration_texts_by_line):
+        iteration_texts_by_line[idx] = [m.split('time=')[-1] for m in iteration]
+        iteration_texts_by_line[idx] = [float(m.split(' ')[0]) for m in iteration_texts_by_line[idx]]
+        iteration_texts_by_line[idx] = [str(sum(iteration_texts_by_line[idx])/len(iteration_texts_by_line[idx]))]
+
+    results = iteration_texts_by_line
+
+    write_results(test_name, input_file_name, ['ping_mean'], results)
+
+
 tests = get_tests_names()
 
 for test in tests:
     treat_stress_result(test)
     treat_sysbench_result(test)
+    treat_client_ping_result(test)
 
