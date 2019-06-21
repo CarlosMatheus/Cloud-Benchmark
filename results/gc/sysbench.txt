@@ -1,0 +1,3500 @@
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:20:59 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.88
+
+General statistics:
+    total time:                          10.0010s
+    total number of events:              399
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 25.06
+         max:                                 31.71
+         95th percentile:                     25.74
+         sum:                               9998.57
+
+Threads fairness:
+    events (avg/stddev):           399.0000/0.00
+    execution time (avg/stddev):   9.9986/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:22:17 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.24
+
+General statistics:
+    total time:                          10.0107s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.84
+         max:                                 27.97
+         95th percentile:                     24.83
+         sum:                              10008.61
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0086/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:23:34 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.08
+
+General statistics:
+    total time:                          10.0002s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.93
+         max:                                 39.05
+         95th percentile:                     25.28
+         sum:                               9998.24
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   9.9982/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:24:52 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.12
+
+General statistics:
+    total time:                          10.0150s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.91
+         max:                                 42.07
+         95th percentile:                     25.28
+         sum:                              10013.13
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0131/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:26:09 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0066s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.89
+         max:                                 40.08
+         95th percentile:                     24.83
+         sum:                              10004.76
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0048/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:27:27 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.28
+
+General statistics:
+    total time:                          10.0024s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.82
+         max:                                 29.88
+         95th percentile:                     24.83
+         sum:                              10000.73
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0007/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:28:44 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.24
+
+General statistics:
+    total time:                          10.0102s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.83
+         max:                                 29.15
+         95th percentile:                     24.83
+         sum:                              10008.22
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0082/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:30:02 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.18
+
+General statistics:
+    total time:                          10.0003s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.87
+         max:                                 30.53
+         95th percentile:                     24.83
+         sum:                               9998.55
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   9.9986/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:31:19 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.28
+
+General statistics:
+    total time:                          10.0010s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.81
+         max:                                 31.12
+         95th percentile:                     24.83
+         sum:                               9999.10
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   9.9991/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:32:37 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.24
+
+General statistics:
+    total time:                          10.0119s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.84
+         max:                                 29.01
+         95th percentile:                     24.83
+         sum:                              10010.05
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0101/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:33:54 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.18
+
+General statistics:
+    total time:                          10.0007s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.87
+         max:                                 30.74
+         95th percentile:                     24.83
+         sum:                               9998.72
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   9.9987/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:35:12 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0064s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.89
+         max:                                 30.57
+         95th percentile:                     24.83
+         sum:                              10004.37
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0044/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:36:29 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.24
+
+General statistics:
+    total time:                          10.0098s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.66
+         avg:                                 24.83
+         max:                                 30.08
+         95th percentile:                     24.83
+         sum:                              10008.00
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0080/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:37:46 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0230s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.93
+         max:                                 28.30
+         95th percentile:                     25.74
+         sum:                              10020.85
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0208/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:39:04 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.21
+
+General statistics:
+    total time:                          10.0191s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.86
+         max:                                 26.51
+         95th percentile:                     25.28
+         sum:                              10016.94
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0169/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:40:21 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.26
+
+General statistics:
+    total time:                          10.0061s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.82
+         max:                                 26.39
+         95th percentile:                     24.83
+         sum:                              10004.30
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0043/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:41:39 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.18
+
+General statistics:
+    total time:                          10.0017s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.67
+         avg:                                 24.87
+         max:                                 29.78
+         95th percentile:                     25.28
+         sum:                               9999.42
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   9.9994/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:42:56 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0034s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.88
+         max:                                 30.79
+         95th percentile:                     25.28
+         sum:                              10001.24
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0012/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:44:13 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0025s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.88
+         max:                                 28.45
+         95th percentile:                     25.28
+         sum:                              10000.47
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0005/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:45:31 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0153s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.85
+         max:                                 29.18
+         95th percentile:                     24.83
+         sum:                              10013.21
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0132/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:46:48 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.00
+
+General statistics:
+    total time:                          10.0218s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.99
+         max:                                 30.72
+         95th percentile:                     25.74
+         sum:                              10019.79
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0198/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:48:06 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.23
+
+General statistics:
+    total time:                          10.0137s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.84
+         max:                                 30.22
+         95th percentile:                     24.83
+         sum:                              10011.74
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0117/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:49:23 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.00
+
+General statistics:
+    total time:                          10.0214s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.99
+         max:                                 32.94
+         95th percentile:                     25.74
+         sum:                              10019.18
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0192/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:50:41 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0170s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.85
+         max:                                 25.46
+         95th percentile:                     25.28
+         sum:                              10015.13
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0151/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:51:58 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0069s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.89
+         max:                                 30.90
+         95th percentile:                     24.83
+         sum:                              10005.35
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0053/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:53:15 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.06
+
+General statistics:
+    total time:                          10.0058s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.67
+         avg:                                 24.95
+         max:                                 37.93
+         95th percentile:                     25.28
+         sum:                              10003.95
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0039/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:54:33 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.08
+
+General statistics:
+    total time:                          10.0011s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.94
+         max:                                 36.16
+         95th percentile:                     25.28
+         sum:                               9999.13
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   9.9991/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:55:50 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0104s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.90
+         max:                                 36.71
+         95th percentile:                     25.28
+         sum:                              10008.28
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0083/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:57:08 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.15
+
+General statistics:
+    total time:                          10.0101s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.90
+         max:                                 32.70
+         95th percentile:                     25.28
+         sum:                              10007.93
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0079/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:58:25 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.21
+
+General statistics:
+    total time:                          10.0180s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.85
+         max:                                 28.14
+         95th percentile:                     24.83
+         sum:                              10016.00
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0160/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 04:59:43 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.26
+
+General statistics:
+    total time:                          10.0046s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.82
+         max:                                 30.52
+         95th percentile:                     24.83
+         sum:                              10002.90
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0029/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:01:01 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.23
+
+General statistics:
+    total time:                          10.0141s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.84
+         max:                                 27.48
+         95th percentile:                     24.83
+         sum:                              10012.04
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0120/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:02:18 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0224s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.86
+         max:                                 30.10
+         95th percentile:                     25.28
+         sum:                              10020.32
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0203/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:03:35 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0170s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.85
+         max:                                 28.92
+         95th percentile:                     24.83
+         sum:                              10014.96
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0150/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:04:53 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0158s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.85
+         max:                                 29.10
+         95th percentile:                     24.83
+         sum:                              10013.71
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0137/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:06:10 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.15
+
+General statistics:
+    total time:                          10.0087s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.89
+         max:                                 34.23
+         95th percentile:                     25.28
+         sum:                              10006.63
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0066/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:07:28 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.13
+
+General statistics:
+    total time:                          10.0140s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.91
+         max:                                 34.62
+         95th percentile:                     25.28
+         sum:                              10011.83
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0118/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:08:46 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.19
+
+General statistics:
+    total time:                          10.0243s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.87
+         max:                                 30.18
+         95th percentile:                     24.83
+         sum:                              10022.48
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0225/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:10:03 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0030s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.88
+         max:                                 30.28
+         95th percentile:                     25.28
+         sum:                              10000.90
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0009/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:11:21 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.21
+
+General statistics:
+    total time:                          10.0187s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.86
+         max:                                 30.41
+         95th percentile:                     25.28
+         sum:                              10016.89
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0169/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:12:38 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.25
+
+General statistics:
+    total time:                          10.0085s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.83
+         max:                                 27.39
+         95th percentile:                     24.83
+         sum:                              10006.56
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0066/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:13:55 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.18
+
+General statistics:
+    total time:                          10.0007s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.87
+         max:                                 31.17
+         95th percentile:                     25.28
+         sum:                               9998.60
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   9.9986/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:15:13 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.21
+
+General statistics:
+    total time:                          10.0185s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.85
+         max:                                 30.47
+         95th percentile:                     24.83
+         sum:                              10016.48
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0165/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:16:30 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0239s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.93
+         max:                                 30.14
+         95th percentile:                     25.28
+         sum:                              10022.07
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0221/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:17:48 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.23
+
+General statistics:
+    total time:                          10.0131s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.66
+         avg:                                 24.84
+         max:                                 31.58
+         95th percentile:                     24.83
+         sum:                              10010.88
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0109/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:19:05 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0214s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.86
+         max:                                 29.48
+         95th percentile:                     24.83
+         sum:                              10019.39
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0194/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:20:23 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.10
+
+General statistics:
+    total time:                          10.0218s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.92
+         max:                                 40.97
+         95th percentile:                     25.28
+         sum:                              10019.77
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0198/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:21:41 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.11
+
+General statistics:
+    total time:                          10.0176s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.91
+         max:                                 42.20
+         95th percentile:                     25.28
+         sum:                              10015.38
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0154/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:22:58 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.80
+
+General statistics:
+    total time:                          10.0222s
+    total number of events:              399
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 25.11
+         max:                                 38.02
+         95th percentile:                     26.20
+         sum:                              10020.31
+
+Threads fairness:
+    events (avg/stddev):           399.0000/0.00
+    execution time (avg/stddev):   10.0203/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:24:15 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0155s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.85
+         max:                                 29.39
+         95th percentile:                     24.83
+         sum:                              10013.32
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0133/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:25:33 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.81
+
+General statistics:
+    total time:                          10.0180s
+    total number of events:              399
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 25.10
+         max:                                 33.50
+         95th percentile:                     25.74
+         sum:                              10015.44
+
+Threads fairness:
+    events (avg/stddev):           399.0000/0.00
+    execution time (avg/stddev):   10.0154/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:26:50 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0075s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.89
+         max:                                 30.63
+         95th percentile:                     25.28
+         sum:                              10005.61
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0056/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:28:08 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.04
+
+General statistics:
+    total time:                          10.0105s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.96
+         max:                                 30.54
+         95th percentile:                     25.28
+         sum:                              10008.59
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0086/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:29:26 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0112s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.90
+         max:                                 34.55
+         95th percentile:                     25.28
+         sum:                              10009.29
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0093/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:30:43 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0208s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.86
+         max:                                 28.10
+         95th percentile:                     24.83
+         sum:                              10018.65
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0186/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:32:01 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.28
+
+General statistics:
+    total time:                          10.0019s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.81
+         max:                                 26.81
+         95th percentile:                     24.83
+         sum:                               9999.91
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   9.9999/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:33:18 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.03
+
+General statistics:
+    total time:                          10.0138s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.97
+         max:                                 35.84
+         95th percentile:                     25.28
+         sum:                              10011.77
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0118/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:34:35 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.11
+
+General statistics:
+    total time:                          10.0186s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.92
+         max:                                 30.49
+         95th percentile:                     25.28
+         sum:                              10016.41
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0164/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:35:53 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0069s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.89
+         max:                                 31.85
+         95th percentile:                     25.28
+         sum:                              10005.02
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0050/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:37:10 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.19
+
+General statistics:
+    total time:                          10.0233s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.87
+         max:                                 30.09
+         95th percentile:                     24.83
+         sum:                              10021.07
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0211/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:38:28 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0242s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.93
+         max:                                 30.29
+         95th percentile:                     25.28
+         sum:                              10022.16
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0222/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:39:45 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0245s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.93
+         max:                                 39.27
+         95th percentile:                     25.28
+         sum:                              10022.13
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0221/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:41:03 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.07
+
+General statistics:
+    total time:                          10.0043s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.94
+         max:                                 31.71
+         95th percentile:                     25.28
+         sum:                              10001.82
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0018/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:42:20 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0100s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.90
+         max:                                 30.65
+         95th percentile:                     25.28
+         sum:                              10007.84
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0078/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:43:37 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.92
+
+General statistics:
+    total time:                          10.0155s
+    total number of events:              400
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 25.03
+         max:                                 36.18
+         95th percentile:                     25.74
+         sum:                              10012.97
+
+Threads fairness:
+    events (avg/stddev):           400.0000/0.00
+    execution time (avg/stddev):   10.0130/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:44:55 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0048s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.88
+         max:                                 32.75
+         95th percentile:                     25.28
+         sum:                              10002.62
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0026/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:46:12 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.86
+
+General statistics:
+    total time:                          10.0073s
+    total number of events:              399
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 25.08
+         max:                                 31.18
+         95th percentile:                     26.20
+         sum:                              10005.20
+
+Threads fairness:
+    events (avg/stddev):           399.0000/0.00
+    execution time (avg/stddev):   10.0052/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:47:30 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0208s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.86
+         max:                                 33.03
+         95th percentile:                     25.28
+         sum:                              10018.62
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0186/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:48:47 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.95
+
+General statistics:
+    total time:                          10.0103s
+    total number of events:              400
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 25.02
+         max:                                 35.80
+         95th percentile:                     25.28
+         sum:                              10007.97
+
+Threads fairness:
+    events (avg/stddev):           400.0000/0.00
+    execution time (avg/stddev):   10.0080/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:50:05 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0128s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.90
+         max:                                 41.15
+         95th percentile:                     25.28
+         sum:                              10010.83
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0108/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:51:22 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.15
+
+General statistics:
+    total time:                          10.0094s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.89
+         max:                                 40.21
+         95th percentile:                     25.28
+         sum:                              10007.06
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0071/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:52:40 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.19
+
+General statistics:
+    total time:                          10.0240s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.87
+         max:                                 33.22
+         95th percentile:                     24.83
+         sum:                              10021.86
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0219/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:53:58 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    39.96
+
+General statistics:
+    total time:                          10.0073s
+    total number of events:              400
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 25.01
+         max:                                 33.79
+         95th percentile:                     25.28
+         sum:                              10004.93
+
+Threads fairness:
+    events (avg/stddev):           400.0000/0.00
+    execution time (avg/stddev):   10.0049/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:55:15 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.10
+
+General statistics:
+    total time:                          10.0213s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.92
+         max:                                 30.61
+         95th percentile:                     25.28
+         sum:                              10019.29
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0193/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:56:32 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0046s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.88
+         max:                                 31.37
+         95th percentile:                     25.28
+         sum:                              10002.79
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0028/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:57:49 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0232s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.93
+         max:                                 29.72
+         95th percentile:                     25.74
+         sum:                              10021.06
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0211/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 05:59:07 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.12
+
+General statistics:
+    total time:                          10.0154s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.91
+         max:                                 30.04
+         95th percentile:                     25.28
+         sum:                              10012.71
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0127/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:00:24 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.13
+
+General statistics:
+    total time:                          10.0142s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.72
+         avg:                                 24.91
+         max:                                 30.28
+         95th percentile:                     25.28
+         sum:                              10011.93
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0119/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:01:42 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.13
+
+General statistics:
+    total time:                          10.0131s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.90
+         max:                                 31.74
+         95th percentile:                     24.83
+         sum:                              10011.31
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0113/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:02:59 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0029s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.88
+         max:                                 28.47
+         95th percentile:                     25.28
+         sum:                              10000.79
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0008/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:04:17 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.19
+
+General statistics:
+    total time:                          10.0228s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.86
+         max:                                 30.93
+         95th percentile:                     24.83
+         sum:                              10020.53
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0205/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:05:34 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0065s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.89
+         max:                                 30.56
+         95th percentile:                     25.28
+         sum:                              10004.21
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0042/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:06:52 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.14
+
+General statistics:
+    total time:                          10.0110s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.90
+         max:                                 35.51
+         95th percentile:                     25.28
+         sum:                              10008.86
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0089/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:08:09 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.15
+
+General statistics:
+    total time:                          10.0088s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.89
+         max:                                 40.33
+         95th percentile:                     24.83
+         sum:                              10006.77
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0068/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:09:27 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.09
+
+General statistics:
+    total time:                          10.0235s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.93
+         max:                                 30.75
+         95th percentile:                     25.28
+         sum:                              10021.42
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0214/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:10:44 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.11
+
+General statistics:
+    total time:                          10.0185s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.92
+         max:                                 31.04
+         95th percentile:                     24.83
+         sum:                              10016.90
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0169/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:12:02 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0213s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.86
+         max:                                 28.65
+         95th percentile:                     25.28
+         sum:                              10019.13
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0191/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:13:19 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.07
+
+General statistics:
+    total time:                          10.0046s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.94
+         max:                                 44.78
+         95th percentile:                     24.83
+         sum:                              10002.66
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0027/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:14:37 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.17
+
+General statistics:
+    total time:                          10.0044s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.88
+         max:                                 29.66
+         95th percentile:                     25.28
+         sum:                              10002.27
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0023/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:15:54 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.22
+
+General statistics:
+    total time:                          10.0173s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.85
+         max:                                 31.57
+         95th percentile:                     24.83
+         sum:                              10015.64
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0156/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:17:12 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.16
+
+General statistics:
+    total time:                          10.0063s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.89
+         max:                                 38.33
+         95th percentile:                     24.83
+         sum:                              10004.47
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0045/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:18:29 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.20
+
+General statistics:
+    total time:                          10.0220s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.86
+         max:                                 39.79
+         95th percentile:                     24.83
+         sum:                              10020.22
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0202/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:19:47 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.18
+
+General statistics:
+    total time:                          10.0005s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.68
+         avg:                                 24.87
+         max:                                 34.93
+         95th percentile:                     24.83
+         sum:                               9998.65
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   9.9986/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:21:04 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.25
+
+General statistics:
+    total time:                          10.0089s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.83
+         max:                                 28.57
+         95th percentile:                     24.83
+         sum:                              10007.02
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0070/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:22:22 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.03
+
+General statistics:
+    total time:                          10.0143s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.97
+         max:                                 31.42
+         95th percentile:                     25.28
+         sum:                              10011.94
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   10.0119/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:23:39 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.11
+
+General statistics:
+    total time:                          10.0199s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.92
+         max:                                 32.06
+         95th percentile:                     25.28
+         sum:                              10017.96
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0180/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:24:57 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    35.90
+
+General statistics:
+    total time:                          10.0252s
+    total number of events:              360
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 27.84
+         max:                                 58.17
+         95th percentile:                     47.47
+         sum:                              10022.32
+
+Threads fairness:
+    events (avg/stddev):           360.0000/0.00
+    execution time (avg/stddev):   10.0223/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:26:14 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.27
+
+General statistics:
+    total time:                          10.0060s
+    total number of events:              403
+
+Latency (ms):
+         min:                                 24.69
+         avg:                                 24.82
+         max:                                 29.91
+         95th percentile:                     24.83
+         sum:                              10004.26
+
+Threads fairness:
+    events (avg/stddev):           403.0000/0.00
+    execution time (avg/stddev):   10.0043/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:27:31 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.11
+
+General statistics:
+    total time:                          10.0203s
+    total number of events:              402
+
+Latency (ms):
+         min:                                 24.71
+         avg:                                 24.92
+         max:                                 31.58
+         95th percentile:                     25.28
+         sum:                              10018.31
+
+Threads fairness:
+    events (avg/stddev):           402.0000/0.00
+    execution time (avg/stddev):   10.0183/0.00
+
+Executing sysbench
+-------------------------------
+Fri Jun 21 06:28:48 UTC 2019
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.11 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 100000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:    40.08
+
+General statistics:
+    total time:                          10.0021s
+    total number of events:              401
+
+Latency (ms):
+         min:                                 24.70
+         avg:                                 24.94
+         max:                                 29.68
+         95th percentile:                     25.28
+         sum:                               9999.91
+
+Threads fairness:
+    events (avg/stddev):           401.0000/0.00
+    execution time (avg/stddev):   9.9999/0.00
+
