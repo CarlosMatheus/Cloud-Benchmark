@@ -1,0 +1,4151 @@
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:36:07 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52712 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 4045
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  47.4 MBytes   397 Mbits/sec  137    177 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 4093
+[  4]   1.00-2.00   sec  45.3 MBytes   380 Mbits/sec   30    190 KBytes       
+tcpi_snd_cwnd 157 tcpi_snd_mss 1408 tcpi_rtt 4087
+[  4]   2.00-3.00   sec  41.5 MBytes   348 Mbits/sec    3    216 KBytes       
+tcpi_snd_cwnd 162 tcpi_snd_mss 1408 tcpi_rtt 4191
+[  4]   3.00-4.00   sec  45.4 MBytes   381 Mbits/sec   13    223 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 4080
+[  4]   4.00-5.00   sec  42.6 MBytes   357 Mbits/sec   19    169 KBytes       
+tcpi_snd_cwnd 135 tcpi_snd_mss 1408 tcpi_rtt 4025
+[  4]   5.00-6.00   sec  41.3 MBytes   347 Mbits/sec    8    186 KBytes       
+tcpi_snd_cwnd 142 tcpi_snd_mss 1408 tcpi_rtt 4052
+[  4]   6.00-7.00   sec  45.3 MBytes   380 Mbits/sec   17    195 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 3938
+[  4]   7.00-8.00   sec  51.3 MBytes   430 Mbits/sec   65    187 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 4040
+[  4]   8.00-9.00   sec  41.9 MBytes   351 Mbits/sec   11    219 KBytes       
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 4251
+send_results
+{
+	"cpu_util_total":	1.887310,
+	"cpu_util_user":	0.230628,
+	"cpu_util_system":	1.656692,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	468735872,
+			"retransmits":	321,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	0.501428,
+	"cpu_util_user":	0,
+	"cpu_util_system":	0.501428,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	465870592,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  45.0 MBytes   378 Mbits/sec   18    227 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   447 MBytes   375 Mbits/sec  321             sender
+[  4]   0.00-10.00  sec   444 MBytes   373 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:03 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:05 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:05 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:05 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:05 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:05 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:06 UTC 2019
+-------------------------------
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:07 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:08 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:09 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:09 UTC 2019
+Executing client_iperf3
+-------------------------------
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:37:09 UTC 2019
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:53:51 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52914 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 5379
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  37.4 MBytes   314 Mbits/sec  333    175 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 5927
+[  4]   1.00-2.00   sec  33.1 MBytes   278 Mbits/sec   23    158 KBytes       
+tcpi_snd_cwnd 153 tcpi_snd_mss 1408 tcpi_rtt 5917
+[  4]   2.00-3.00   sec  30.5 MBytes   256 Mbits/sec    8    210 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 5500
+[  4]   3.00-4.00   sec  32.0 MBytes   268 Mbits/sec   17    198 KBytes       
+tcpi_snd_cwnd 182 tcpi_snd_mss 1408 tcpi_rtt 5226
+[  4]   4.00-5.00   sec  34.6 MBytes   290 Mbits/sec    4    250 KBytes       
+tcpi_snd_cwnd 153 tcpi_snd_mss 1408 tcpi_rtt 5461
+[  4]   5.00-6.00   sec  39.7 MBytes   333 Mbits/sec    8    210 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 5175
+[  4]   6.00-7.00   sec  30.9 MBytes   259 Mbits/sec   14    187 KBytes       
+tcpi_snd_cwnd 157 tcpi_snd_mss 1408 tcpi_rtt 5329
+[  4]   7.00-8.00   sec  40.9 MBytes   343 Mbits/sec   61    216 KBytes       
+tcpi_snd_cwnd 132 tcpi_snd_mss 1408 tcpi_rtt 5284
+[  4]   8.00-9.00   sec  37.3 MBytes   313 Mbits/sec   46    182 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 5341
+send_results
+{
+	"cpu_util_total":	1.498413,
+	"cpu_util_user":	0.199231,
+	"cpu_util_system":	1.299202,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	366020864,
+			"retransmits":	526,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	0.027430,
+	"cpu_util_user":	0.024112,
+	"cpu_util_system":	0.003318,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	362393856,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  32.6 MBytes   274 Mbits/sec   12    164 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   349 MBytes   293 Mbits/sec  526             sender
+[  4]   0.00-10.00  sec   346 MBytes   290 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:54:08 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52918 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 169 tcpi_snd_mss 1408 tcpi_rtt 1715
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  94.8 MBytes   795 Mbits/sec   29    232 KBytes       
+tcpi_snd_cwnd 106 tcpi_snd_mss 1408 tcpi_rtt 1783
+[  4]   1.00-2.00   sec  96.0 MBytes   806 Mbits/sec   60    146 KBytes       
+tcpi_snd_cwnd 135 tcpi_snd_mss 1408 tcpi_rtt 1464
+[  4]   2.00-3.00   sec  99.3 MBytes   833 Mbits/sec   49    186 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 1848
+[  4]   3.00-4.00   sec  97.9 MBytes   821 Mbits/sec   49    180 KBytes       
+tcpi_snd_cwnd 151 tcpi_snd_mss 1408 tcpi_rtt 1612
+[  4]   4.00-5.00   sec  97.5 MBytes   818 Mbits/sec   22    208 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 1629
+[  4]   5.00-6.00   sec   102 MBytes   859 Mbits/sec   95    198 KBytes       
+tcpi_snd_cwnd 170 tcpi_snd_mss 1408 tcpi_rtt 1751
+[  4]   6.00-7.00   sec   102 MBytes   852 Mbits/sec   54    234 KBytes       
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 1580
+[  4]   7.00-8.00   sec   106 MBytes   889 Mbits/sec   54    201 KBytes       
+tcpi_snd_cwnd 145 tcpi_snd_mss 1408 tcpi_rtt 1564
+[  4]   8.00-9.00   sec   105 MBytes   885 Mbits/sec   29    199 KBytes       
+tcpi_snd_cwnd 118 tcpi_snd_mss 1408 tcpi_rtt 1516
+send_results
+{
+	"cpu_util_total":	3.740144,
+	"cpu_util_user":	0.258383,
+	"cpu_util_system":	3.481761,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	1053796480,
+			"retransmits":	482,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.930710,
+	"cpu_util_user":	1.705442,
+	"cpu_util_system":	4.225274,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	1052472960,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec   104 MBytes   873 Mbits/sec   41    162 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1005 MBytes   843 Mbits/sec  482             sender
+[  4]   0.00-10.00  sec  1004 MBytes   842 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:54:25 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52922 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 185 tcpi_snd_mss 1408 tcpi_rtt 3601
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  58.1 MBytes   487 Mbits/sec  238    254 KBytes       
+tcpi_snd_cwnd 142 tcpi_snd_mss 1408 tcpi_rtt 3513
+[  4]   1.00-2.00   sec  53.6 MBytes   449 Mbits/sec   31    195 KBytes       
+tcpi_snd_cwnd 170 tcpi_snd_mss 1408 tcpi_rtt 3786
+[  4]   2.00-3.00   sec  47.9 MBytes   402 Mbits/sec   29    234 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 3588
+[  4]   3.00-4.00   sec  50.9 MBytes   427 Mbits/sec   41    190 KBytes       
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 3654
+[  4]   4.00-5.00   sec  45.8 MBytes   384 Mbits/sec   10    227 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 3583
+[  4]   5.00-6.00   sec  53.7 MBytes   451 Mbits/sec   17    170 KBytes       
+tcpi_snd_cwnd 149 tcpi_snd_mss 1408 tcpi_rtt 6882
+[  4]   6.00-7.00   sec  46.1 MBytes   387 Mbits/sec   12    205 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3757
+[  4]   7.00-8.00   sec  47.2 MBytes   396 Mbits/sec   27    166 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 3656
+[  4]   8.00-9.00   sec  46.6 MBytes   391 Mbits/sec    7    206 KBytes       
+tcpi_snd_cwnd 182 tcpi_snd_mss 1408 tcpi_rtt 3678
+send_results
+{
+	"cpu_util_total":	1.914956,
+	"cpu_util_user":	0.273299,
+	"cpu_util_system":	1.641667,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	523015680,
+			"retransmits":	422,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.313266,
+	"cpu_util_user":	0.771989,
+	"cpu_util_system":	1.541277,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	520036352,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  48.9 MBytes   410 Mbits/sec   10    250 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   499 MBytes   418 Mbits/sec  422             sender
+[  4]   0.00-10.00  sec   496 MBytes   416 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:54:42 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52930 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 158 tcpi_snd_mss 1408 tcpi_rtt 2519
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  80.4 MBytes   674 Mbits/sec   42    217 KBytes       
+tcpi_snd_cwnd 147 tcpi_snd_mss 1408 tcpi_rtt 2462
+[  4]   1.00-2.00   sec  64.8 MBytes   544 Mbits/sec   11    202 KBytes       
+tcpi_snd_cwnd 140 tcpi_snd_mss 1408 tcpi_rtt 3090
+[  4]   2.00-3.00   sec  61.8 MBytes   519 Mbits/sec   18    192 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 2626
+[  4]   3.00-4.00   sec  65.5 MBytes   550 Mbits/sec   30    170 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 2516
+[  4]   4.00-5.00   sec  67.6 MBytes   567 Mbits/sec   37    219 KBytes       
+tcpi_snd_cwnd 189 tcpi_snd_mss 1408 tcpi_rtt 2448
+[  4]   5.00-6.00   sec  68.6 MBytes   576 Mbits/sec   34    260 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 2590
+[  4]   6.00-7.00   sec  62.8 MBytes   527 Mbits/sec   57    158 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 2589
+[  4]   7.00-8.00   sec  64.7 MBytes   543 Mbits/sec   14    206 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 2692
+[  4]   8.00-9.00   sec  67.8 MBytes   568 Mbits/sec   16    180 KBytes       
+tcpi_snd_cwnd 147 tcpi_snd_mss 1408 tcpi_rtt 2537
+send_results
+{
+	"cpu_util_total":	2.575979,
+	"cpu_util_user":	0.440812,
+	"cpu_util_system":	2.135196,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	707214464,
+			"retransmits":	308,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.323128,
+	"cpu_util_user":	0.745360,
+	"cpu_util_system":	2.577751,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	704899712,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  70.4 MBytes   590 Mbits/sec   49    202 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   674 MBytes   566 Mbits/sec  308             sender
+[  4]   0.00-10.00  sec   672 MBytes   564 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:55:00 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52936 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 2246
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  64.3 MBytes   540 Mbits/sec   19    194 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 2496
+[  4]   1.00-2.00   sec  73.8 MBytes   619 Mbits/sec   32    190 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 2359
+[  4]   2.00-3.00   sec  70.2 MBytes   589 Mbits/sec   21    212 KBytes       
+tcpi_snd_cwnd 108 tcpi_snd_mss 1408 tcpi_rtt 2522
+[  4]   3.00-4.00   sec  71.6 MBytes   600 Mbits/sec   26    148 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 2252
+[  4]   4.00-5.00   sec  72.6 MBytes   609 Mbits/sec   16    164 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 2258
+[  4]   5.00-6.00   sec  67.6 MBytes   567 Mbits/sec   15    188 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 2381
+[  4]   6.00-7.00   sec  71.4 MBytes   599 Mbits/sec   39    188 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 2234
+[  4]   7.00-8.00   sec  69.6 MBytes   583 Mbits/sec   32    198 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 2222
+[  4]   8.00-9.00   sec  71.8 MBytes   602 Mbits/sec   30    153 KBytes       
+tcpi_snd_cwnd 113 tcpi_snd_mss 1408 tcpi_rtt 2341
+send_results
+{
+	"cpu_util_total":	2.727839,
+	"cpu_util_user":	0.377128,
+	"cpu_util_system":	2.350700,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	737751168,
+			"retransmits":	240,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.514721,
+	"cpu_util_user":	0.716469,
+	"cpu_util_system":	2.798251,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	736419200,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  70.7 MBytes   593 Mbits/sec   10    155 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   704 MBytes   590 Mbits/sec  240             sender
+[  4]   0.00-10.00  sec   702 MBytes   589 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:55:17 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52940 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 2151
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  77.8 MBytes   652 Mbits/sec   79    212 KBytes       
+tcpi_snd_cwnd 167 tcpi_snd_mss 1408 tcpi_rtt 2293
+[  4]   1.00-2.00   sec  79.4 MBytes   666 Mbits/sec   62    230 KBytes       
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 2123
+[  4]   2.00-3.00   sec  78.4 MBytes   658 Mbits/sec   36    165 KBytes       
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 2193
+[  4]   3.00-4.00   sec  78.4 MBytes   658 Mbits/sec   42    201 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 2119
+[  4]   4.00-5.00   sec  78.6 MBytes   659 Mbits/sec   52    194 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 2256
+[  4]   5.00-6.00   sec  79.9 MBytes   670 Mbits/sec   75    206 KBytes       
+tcpi_snd_cwnd 151 tcpi_snd_mss 1408 tcpi_rtt 2137
+[  4]   6.00-7.00   sec  78.3 MBytes   657 Mbits/sec   70    208 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 2022
+[  4]   7.00-8.00   sec  85.9 MBytes   720 Mbits/sec   63    197 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 2322
+[  4]   8.00-9.00   sec  80.5 MBytes   676 Mbits/sec   73    212 KBytes       
+tcpi_snd_cwnd 161 tcpi_snd_mss 1408 tcpi_rtt 2041
+send_results
+{
+	"cpu_util_total":	2.953028,
+	"cpu_util_user":	0.211631,
+	"cpu_util_system":	2.741407,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	838707584,
+			"retransmits":	626,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.803949,
+	"cpu_util_user":	0.411376,
+	"cpu_util_system":	3.392579,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	836781440,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  82.6 MBytes   693 Mbits/sec   74    221 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   800 MBytes   671 Mbits/sec  626             sender
+[  4]   0.00-10.00  sec   798 MBytes   669 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:55:34 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52944 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 101 tcpi_snd_mss 1408 tcpi_rtt 1238
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   102 MBytes   859 Mbits/sec   77    139 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 1357
+[  4]   1.00-2.00   sec   104 MBytes   869 Mbits/sec   75    184 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 1337
+[  4]   2.00-3.00   sec   102 MBytes   858 Mbits/sec   36    177 KBytes       
+tcpi_snd_cwnd 103 tcpi_snd_mss 1408 tcpi_rtt 1145
+[  4]   3.00-4.00   sec   102 MBytes   852 Mbits/sec   81    142 KBytes       
+tcpi_snd_cwnd 140 tcpi_snd_mss 1408 tcpi_rtt 1424
+[  4]   4.00-5.00   sec   101 MBytes   846 Mbits/sec   43    192 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 1340
+[  4]   5.00-6.00   sec   101 MBytes   846 Mbits/sec   55    170 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 1380
+[  4]   6.00-7.00   sec   102 MBytes   859 Mbits/sec   24    187 KBytes       
+tcpi_snd_cwnd 140 tcpi_snd_mss 1408 tcpi_rtt 1439
+[  4]   7.00-8.00   sec  98.3 MBytes   824 Mbits/sec   43    192 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 1327
+[  4]   8.00-9.00   sec   103 MBytes   864 Mbits/sec   53    158 KBytes       
+tcpi_snd_cwnd 109 tcpi_snd_mss 1408 tcpi_rtt 1636
+send_results
+{
+	"cpu_util_total":	3.686912,
+	"cpu_util_user":	0.199090,
+	"cpu_util_system":	3.487832,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	1064488832,
+			"retransmits":	526,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	8.125644,
+	"cpu_util_user":	2.027060,
+	"cpu_util_system":	6.098584,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	1063321600,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec   100 MBytes   839 Mbits/sec   39    150 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  1015 MBytes   852 Mbits/sec  526             sender
+[  4]   0.00-10.00  sec  1014 MBytes   851 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:55:51 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52952 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 4101
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  48.3 MBytes   405 Mbits/sec  262    176 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 4129
+[  4]   1.00-2.00   sec  47.1 MBytes   395 Mbits/sec   62    184 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 4128
+[  4]   2.00-3.00   sec  43.4 MBytes   364 Mbits/sec   44    194 KBytes       
+tcpi_snd_cwnd 149 tcpi_snd_mss 1408 tcpi_rtt 4126
+[  4]   3.00-4.00   sec  45.8 MBytes   384 Mbits/sec   29    205 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 4128
+[  4]   4.00-5.00   sec  43.9 MBytes   368 Mbits/sec   30    212 KBytes       
+tcpi_snd_cwnd 117 tcpi_snd_mss 1408 tcpi_rtt 3972
+[  4]   5.00-6.00   sec  41.5 MBytes   348 Mbits/sec   44    161 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 4027
+[  4]   6.00-7.00   sec  39.8 MBytes   334 Mbits/sec   17    194 KBytes       
+tcpi_snd_cwnd 147 tcpi_snd_mss 1408 tcpi_rtt 4085
+[  4]   7.00-8.00   sec  43.1 MBytes   361 Mbits/sec   12    202 KBytes       
+tcpi_snd_cwnd 114 tcpi_snd_mss 1408 tcpi_rtt 4067
+[  4]   8.00-9.00   sec  41.3 MBytes   346 Mbits/sec    8    157 KBytes       
+tcpi_snd_cwnd 176 tcpi_snd_mss 1408 tcpi_rtt 4380
+send_results
+{
+	"cpu_util_total":	1.576119,
+	"cpu_util_user":	0.085538,
+	"cpu_util_system":	1.490581,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	458040704,
+			"retransmits":	517,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	1.998031,
+	"cpu_util_user":	0,
+	"cpu_util_system":	1.998025,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	454855808,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  42.7 MBytes   359 Mbits/sec    9    242 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   437 MBytes   366 Mbits/sec  517             sender
+[  4]   0.00-10.00  sec   434 MBytes   364 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:56:09 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52956 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 132 tcpi_snd_mss 1408 tcpi_rtt 4250
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  51.6 MBytes   433 Mbits/sec  109    182 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 3958
+[  4]   1.00-2.00   sec  47.3 MBytes   396 Mbits/sec   41    197 KBytes       
+tcpi_snd_cwnd 113 tcpi_snd_mss 1408 tcpi_rtt 3833
+[  4]   2.00-3.00   sec  44.4 MBytes   373 Mbits/sec   19    155 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 3812
+[  4]   3.00-4.00   sec  42.4 MBytes   356 Mbits/sec   15    187 KBytes       
+tcpi_snd_cwnd 155 tcpi_snd_mss 1408 tcpi_rtt 3921
+[  4]   4.00-5.00   sec  45.9 MBytes   385 Mbits/sec   21    213 KBytes       
+tcpi_snd_cwnd 170 tcpi_snd_mss 1408 tcpi_rtt 3952
+[  4]   5.00-6.00   sec  46.7 MBytes   392 Mbits/sec   39    234 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 3723
+[  4]   6.00-7.00   sec  43.4 MBytes   364 Mbits/sec   26    191 KBytes       
+tcpi_snd_cwnd 160 tcpi_snd_mss 1408 tcpi_rtt 3914
+[  4]   7.00-8.00   sec  45.2 MBytes   379 Mbits/sec   25    220 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 3875
+[  4]   8.00-9.00   sec  46.1 MBytes   387 Mbits/sec   45    169 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 4184
+send_results
+{
+	"cpu_util_total":	1.915093,
+	"cpu_util_user":	0.141068,
+	"cpu_util_system":	1.774015,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	476565760,
+			"retransmits":	351,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.231508,
+	"cpu_util_user":	0.374337,
+	"cpu_util_system":	1.857182,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	474183424,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  41.4 MBytes   348 Mbits/sec   11    206 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   454 MBytes   381 Mbits/sec  351             sender
+[  4]   0.00-10.00  sec   452 MBytes   379 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:56:26 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52962 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 125 tcpi_snd_mss 1408 tcpi_rtt 4060
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  43.3 MBytes   363 Mbits/sec  189    172 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 3718
+[  4]   1.00-2.00   sec  43.1 MBytes   361 Mbits/sec   11    212 KBytes       
+tcpi_snd_cwnd 125 tcpi_snd_mss 1408 tcpi_rtt 4238
+[  4]   2.00-3.00   sec  43.7 MBytes   366 Mbits/sec   22    172 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 4426
+[  4]   3.00-4.00   sec  40.6 MBytes   340 Mbits/sec    9    158 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 3708
+[  4]   4.00-5.00   sec  40.3 MBytes   338 Mbits/sec    6    204 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 4138
+[  4]   5.00-6.00   sec  42.1 MBytes   353 Mbits/sec   23    164 KBytes       
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 3825
+[  4]   6.00-7.00   sec  41.3 MBytes   346 Mbits/sec    6    201 KBytes       
+tcpi_snd_cwnd 118 tcpi_snd_mss 1408 tcpi_rtt 4311
+[  4]   7.00-8.00   sec  42.0 MBytes   352 Mbits/sec   27    162 KBytes       
+tcpi_snd_cwnd 103 tcpi_snd_mss 1408 tcpi_rtt 3656
+[  4]   8.00-9.00   sec  41.7 MBytes   350 Mbits/sec   14    142 KBytes       
+tcpi_snd_cwnd 125 tcpi_snd_mss 1408 tcpi_rtt 3752
+send_results
+{
+	"cpu_util_total":	1.676292,
+	"cpu_util_user":	0.120792,
+	"cpu_util_system":	1.555549,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	441937408,
+			"retransmits":	318,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	1.856589,
+	"cpu_util_user":	1.856594,
+	"cpu_util_system":	0,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	439346688,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  43.5 MBytes   365 Mbits/sec   11    172 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   421 MBytes   354 Mbits/sec  318             sender
+[  4]   0.00-10.00  sec   419 MBytes   351 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:56:43 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52968 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 4321
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  42.1 MBytes   353 Mbits/sec  146    201 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 4217
+[  4]   1.00-2.00   sec  43.1 MBytes   361 Mbits/sec   56    197 KBytes       
+tcpi_snd_cwnd 162 tcpi_snd_mss 1408 tcpi_rtt 4459
+[  4]   2.00-3.00   sec  38.1 MBytes   320 Mbits/sec   15    223 KBytes       
+tcpi_snd_cwnd 163 tcpi_snd_mss 1408 tcpi_rtt 4402
+[  4]   3.00-4.00   sec  42.1 MBytes   353 Mbits/sec   41    224 KBytes       
+tcpi_snd_cwnd 219 tcpi_snd_mss 1408 tcpi_rtt 4316
+[  4]   4.00-5.00   sec  47.7 MBytes   400 Mbits/sec    9    301 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4294
+[  4]   5.00-6.00   sec  51.4 MBytes   431 Mbits/sec  148    183 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 4229
+[  4]   6.00-7.00   sec  38.5 MBytes   323 Mbits/sec   15    204 KBytes       
+tcpi_snd_cwnd 161 tcpi_snd_mss 1408 tcpi_rtt 4225
+[  4]   7.00-8.00   sec  40.3 MBytes   338 Mbits/sec   33    221 KBytes       
+tcpi_snd_cwnd 166 tcpi_snd_mss 1408 tcpi_rtt 4437
+[  4]   8.00-9.00   sec  41.3 MBytes   347 Mbits/sec   27    228 KBytes       
+tcpi_snd_cwnd 171 tcpi_snd_mss 1408 tcpi_rtt 4440
+send_results
+{
+	"cpu_util_total":	1.829856,
+	"cpu_util_user":	0,
+	"cpu_util_system":	1.830242,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	446665472,
+			"retransmits":	514,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.111644,
+	"cpu_util_user":	0.481045,
+	"cpu_util_system":	1.630605,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	444463360,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  41.4 MBytes   347 Mbits/sec   24    235 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   426 MBytes   357 Mbits/sec  514             sender
+[  4]   0.00-10.00  sec   424 MBytes   356 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:57:00 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52974 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 4042
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  49.3 MBytes   413 Mbits/sec  130    160 KBytes       
+tcpi_snd_cwnd 145 tcpi_snd_mss 1408 tcpi_rtt 3621
+[  4]   1.00-2.00   sec  44.6 MBytes   374 Mbits/sec   26    199 KBytes       
+tcpi_snd_cwnd 118 tcpi_snd_mss 1408 tcpi_rtt 4102
+[  4]   2.00-3.00   sec  46.2 MBytes   388 Mbits/sec   45    162 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 3660
+[  4]   3.00-4.00   sec  46.3 MBytes   388 Mbits/sec    8    194 KBytes       
+tcpi_snd_cwnd 117 tcpi_snd_mss 1408 tcpi_rtt 3897
+[  4]   4.00-5.00   sec  45.3 MBytes   380 Mbits/sec   23    161 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 3877
+[  4]   5.00-6.00   sec  44.1 MBytes   370 Mbits/sec   23    204 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 3656
+[  4]   6.00-7.00   sec  45.2 MBytes   379 Mbits/sec   26    169 KBytes       
+tcpi_snd_cwnd 156 tcpi_snd_mss 1408 tcpi_rtt 3775
+[  4]   7.00-8.00   sec  43.5 MBytes   365 Mbits/sec   11    214 KBytes       
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 3969
+[  4]   8.00-9.00   sec  45.1 MBytes   378 Mbits/sec   41    176 KBytes       
+tcpi_snd_cwnd 155 tcpi_snd_mss 1408 tcpi_rtt 3781
+send_results
+{
+	"cpu_util_total":	1.788110,
+	"cpu_util_user":	0.284871,
+	"cpu_util_system":	1.503388,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	476115200,
+			"retransmits":	357,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.251635,
+	"cpu_util_user":	0,
+	"cpu_util_system":	2.251629,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	473524480,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  44.5 MBytes   373 Mbits/sec   24    213 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   454 MBytes   381 Mbits/sec  357             sender
+[  4]   0.00-10.00  sec   452 MBytes   379 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:57:17 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52978 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 161 tcpi_snd_mss 1408 tcpi_rtt 3609
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  50.1 MBytes   420 Mbits/sec   31    221 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 4118
+[  4]   1.00-2.00   sec  44.9 MBytes   377 Mbits/sec   29    191 KBytes       
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 3591
+[  4]   2.00-3.00   sec  49.0 MBytes   411 Mbits/sec   28    227 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 3659
+[  4]   3.00-4.00   sec  49.4 MBytes   414 Mbits/sec   51    180 KBytes       
+tcpi_snd_cwnd 151 tcpi_snd_mss 1408 tcpi_rtt 3678
+[  4]   4.00-5.00   sec  47.9 MBytes   402 Mbits/sec   21    208 KBytes       
+tcpi_snd_cwnd 126 tcpi_snd_mss 1408 tcpi_rtt 3528
+[  4]   5.00-6.00   sec  47.4 MBytes   398 Mbits/sec   21    173 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 3533
+[  4]   6.00-7.00   sec  45.6 MBytes   382 Mbits/sec   11    206 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 3720
+[  4]   7.00-8.00   sec  44.8 MBytes   376 Mbits/sec   31    180 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 4072
+[  4]   8.00-9.00   sec  49.0 MBytes   411 Mbits/sec   41    219 KBytes       
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 3715
+send_results
+{
+	"cpu_util_total":	2.330948,
+	"cpu_util_user":	0.157560,
+	"cpu_util_system":	2.173408,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	498265856,
+			"retransmits":	279,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.414348,
+	"cpu_util_user":	0.215472,
+	"cpu_util_system":	2.198882,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	496824064,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  47.1 MBytes   395 Mbits/sec   15    179 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   475 MBytes   399 Mbits/sec  279             sender
+[  4]   0.00-10.00  sec   474 MBytes   397 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:57:35 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52984 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4096
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  46.0 MBytes   386 Mbits/sec  298    183 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 4122
+[  4]   1.00-2.00   sec  42.8 MBytes   359 Mbits/sec   36    206 KBytes       
+tcpi_snd_cwnd 214 tcpi_snd_mss 1408 tcpi_rtt 4117
+[  4]   2.00-3.00   sec  50.4 MBytes   423 Mbits/sec    3    294 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 4191
+[  4]   3.00-4.00   sec  46.1 MBytes   387 Mbits/sec   74    209 KBytes       
+tcpi_snd_cwnd 171 tcpi_snd_mss 1408 tcpi_rtt 4198
+[  4]   4.00-5.00   sec  42.6 MBytes   358 Mbits/sec   34    235 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 4025
+[  4]   5.00-6.00   sec  42.4 MBytes   356 Mbits/sec   34    177 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 4081
+[  4]   6.00-7.00   sec  43.4 MBytes   364 Mbits/sec    4    197 KBytes       
+tcpi_snd_cwnd 168 tcpi_snd_mss 1408 tcpi_rtt 4103
+[  4]   7.00-8.00   sec  41.1 MBytes   345 Mbits/sec   10    231 KBytes       
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 4135
+[  4]   8.00-9.00   sec  42.7 MBytes   358 Mbits/sec   19    176 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 3920
+send_results
+{
+	"cpu_util_total":	1.870780,
+	"cpu_util_user":	0.348594,
+	"cpu_util_system":	1.522176,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	456507392,
+			"retransmits":	519,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.182411,
+	"cpu_util_user":	0.235384,
+	"cpu_util_system":	1.947033,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	454054656,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  37.7 MBytes   316 Mbits/sec    7    206 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   435 MBytes   365 Mbits/sec  519             sender
+[  4]   0.00-10.00  sec   433 MBytes   363 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:57:52 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52990 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 3309
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  53.3 MBytes   447 Mbits/sec  150    219 KBytes       
+tcpi_snd_cwnd 194 tcpi_snd_mss 1408 tcpi_rtt 3293
+[  4]   1.00-2.00   sec  53.6 MBytes   449 Mbits/sec   11    267 KBytes       
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 3369
+[  4]   2.00-3.00   sec  52.5 MBytes   440 Mbits/sec   71    227 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 3245
+[  4]   3.00-4.00   sec  53.0 MBytes   445 Mbits/sec   82    190 KBytes       
+tcpi_snd_cwnd 232 tcpi_snd_mss 1408 tcpi_rtt 3393
+[  4]   4.00-5.00   sec  60.9 MBytes   511 Mbits/sec    2    319 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 3335
+[  4]   5.00-6.00   sec  58.4 MBytes   490 Mbits/sec  104    184 KBytes       
+tcpi_snd_cwnd 167 tcpi_snd_mss 1408 tcpi_rtt 3376
+[  4]   6.00-7.00   sec  50.2 MBytes   421 Mbits/sec   25    230 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 3387
+[  4]   7.00-8.00   sec  51.3 MBytes   431 Mbits/sec   76    191 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 3484
+[  4]   8.00-9.00   sec  53.2 MBytes   446 Mbits/sec   60    164 KBytes       
+tcpi_snd_cwnd 160 tcpi_snd_mss 1408 tcpi_rtt 3750
+send_results
+{
+	"cpu_util_total":	2.123515,
+	"cpu_util_user":	0.193617,
+	"cpu_util_system":	1.929927,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	558702848,
+			"retransmits":	596,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.652427,
+	"cpu_util_user":	0,
+	"cpu_util_system":	2.652427,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	556565504,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  46.4 MBytes   390 Mbits/sec   15    220 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   533 MBytes   447 Mbits/sec  596             sender
+[  4]   0.00-10.00  sec   531 MBytes   445 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:58:09 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 52996 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 3636
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  50.5 MBytes   423 Mbits/sec  160    197 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 3532
+[  4]   1.00-2.00   sec  50.5 MBytes   423 Mbits/sec   48    151 KBytes       
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 3536
+[  4]   2.00-3.00   sec  51.5 MBytes   432 Mbits/sec   41    179 KBytes       
+tcpi_snd_cwnd 153 tcpi_snd_mss 1408 tcpi_rtt 3524
+[  4]   3.00-4.00   sec  49.9 MBytes   419 Mbits/sec   55    210 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 3500
+[  4]   4.00-5.00   sec  50.0 MBytes   419 Mbits/sec   76    164 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 3702
+[  4]   5.00-6.00   sec  51.3 MBytes   431 Mbits/sec   39    187 KBytes       
+tcpi_snd_cwnd 273 tcpi_snd_mss 1408 tcpi_rtt 5545
+[  4]   6.00-7.00   sec  68.6 MBytes   575 Mbits/sec    0    375 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 3573
+[  4]   7.00-8.00   sec  51.1 MBytes   429 Mbits/sec  215    191 KBytes       
+tcpi_snd_cwnd 167 tcpi_snd_mss 1408 tcpi_rtt 3540
+[  4]   8.00-9.00   sec  48.9 MBytes   410 Mbits/sec   24    230 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 3606
+send_results
+{
+	"cpu_util_total":	1.935820,
+	"cpu_util_user":	0.177091,
+	"cpu_util_system":	1.758748,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	544313088,
+			"retransmits":	708,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.781275,
+	"cpu_util_user":	0.283125,
+	"cpu_util_system":	2.498150,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	542213760,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  46.8 MBytes   393 Mbits/sec   50    197 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   519 MBytes   435 Mbits/sec  708             sender
+[  4]   0.00-10.00  sec   517 MBytes   434 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:58:26 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53000 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 4807
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  51.3 MBytes   430 Mbits/sec  102    198 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 3825
+[  4]   1.00-2.00   sec  49.7 MBytes   416 Mbits/sec   55    175 KBytes       
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 3796
+[  4]   2.00-3.00   sec  52.3 MBytes   438 Mbits/sec   85    176 KBytes       
+tcpi_snd_cwnd 155 tcpi_snd_mss 1408 tcpi_rtt 3395
+[  4]   3.00-4.00   sec  52.5 MBytes   440 Mbits/sec   25    213 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 3348
+[  4]   4.00-5.00   sec  51.5 MBytes   432 Mbits/sec   59    188 KBytes       
+tcpi_snd_cwnd 166 tcpi_snd_mss 1408 tcpi_rtt 3344
+[  4]   5.00-6.00   sec  55.8 MBytes   468 Mbits/sec   69    228 KBytes       
+tcpi_snd_cwnd 197 tcpi_snd_mss 1408 tcpi_rtt 3343
+[  4]   6.00-7.00   sec  55.9 MBytes   469 Mbits/sec   21    271 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 3477
+[  4]   7.00-8.00   sec  57.5 MBytes   482 Mbits/sec   92    219 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 3252
+[  4]   8.00-9.00   sec  50.6 MBytes   425 Mbits/sec   60    194 KBytes       
+tcpi_snd_cwnd 180 tcpi_snd_mss 1408 tcpi_rtt 3394
+send_results
+{
+	"cpu_util_total":	2.121832,
+	"cpu_util_user":	0.183101,
+	"cpu_util_system":	1.938740,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	554076160,
+			"retransmits":	585,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.664157,
+	"cpu_util_user":	0.966832,
+	"cpu_util_system":	1.697325,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	552068352,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  51.4 MBytes   431 Mbits/sec   17    248 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   528 MBytes   443 Mbits/sec  585             sender
+[  4]   0.00-10.00  sec   526 MBytes   442 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:58:44 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53008 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 4397
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  47.3 MBytes   396 Mbits/sec  255    164 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4370
+[  4]   1.00-2.00   sec  36.9 MBytes   310 Mbits/sec   12    183 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 4200
+[  4]   2.00-3.00   sec  43.4 MBytes   364 Mbits/sec   57    177 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 4274
+[  4]   3.00-4.00   sec  40.5 MBytes   339 Mbits/sec   15    188 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 4478
+[  4]   4.00-5.00   sec  36.6 MBytes   307 Mbits/sec   12    212 KBytes       
+tcpi_snd_cwnd 168 tcpi_snd_mss 1408 tcpi_rtt 5180
+[  4]   5.00-6.00   sec  38.0 MBytes   319 Mbits/sec   10    231 KBytes       
+tcpi_snd_cwnd 164 tcpi_snd_mss 1408 tcpi_rtt 4432
+[  4]   6.00-7.00   sec  41.4 MBytes   347 Mbits/sec   16    226 KBytes       
+tcpi_snd_cwnd 163 tcpi_snd_mss 1408 tcpi_rtt 4363
+[  4]   7.00-8.00   sec  41.6 MBytes   349 Mbits/sec   34    224 KBytes       
+tcpi_snd_cwnd 171 tcpi_snd_mss 1408 tcpi_rtt 4602
+[  4]   8.00-9.00   sec  38.9 MBytes   326 Mbits/sec   38    235 KBytes       
+tcpi_snd_cwnd 122 tcpi_snd_mss 1408 tcpi_rtt 4325
+send_results
+{
+	"cpu_util_total":	1.569279,
+	"cpu_util_user":	0.219080,
+	"cpu_util_system":	1.350218,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	421470720,
+			"retransmits":	465,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.191489,
+	"cpu_util_user":	2.191489,
+	"cpu_util_system":	0,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	418381568,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  37.4 MBytes   314 Mbits/sec   16    168 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   402 MBytes   337 Mbits/sec  465             sender
+[  4]   0.00-10.00  sec   399 MBytes   335 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:59:01 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53012 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 2225
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  79.3 MBytes   665 Mbits/sec   80    151 KBytes       
+tcpi_snd_cwnd 118 tcpi_snd_mss 1408 tcpi_rtt 2085
+[  4]   1.00-2.00   sec  78.8 MBytes   661 Mbits/sec   35    162 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 1891
+[  4]   2.00-3.00   sec  81.5 MBytes   683 Mbits/sec   80    170 KBytes       
+tcpi_snd_cwnd 167 tcpi_snd_mss 1408 tcpi_rtt 1991
+[  4]   3.00-4.00   sec  77.6 MBytes   651 Mbits/sec   19    230 KBytes       
+tcpi_snd_cwnd 155 tcpi_snd_mss 1408 tcpi_rtt 5160
+[  4]   4.00-5.00   sec  80.6 MBytes   676 Mbits/sec   75    213 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 2008
+[  4]   5.00-6.00   sec  84.9 MBytes   712 Mbits/sec   68    204 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 1923
+[  4]   6.00-7.00   sec  80.5 MBytes   676 Mbits/sec   55    204 KBytes       
+tcpi_snd_cwnd 135 tcpi_snd_mss 1408 tcpi_rtt 1868
+[  4]   7.00-8.00   sec  84.0 MBytes   705 Mbits/sec   49    186 KBytes       
+tcpi_snd_cwnd 160 tcpi_snd_mss 1408 tcpi_rtt 2098
+[  4]   8.00-9.00   sec  84.2 MBytes   706 Mbits/sec   78    220 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 2046
+send_results
+{
+	"cpu_util_total":	3.359763,
+	"cpu_util_user":	0.159529,
+	"cpu_util_system":	3.200235,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	855347328,
+			"retransmits":	591,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.103532,
+	"cpu_util_user":	2.738160,
+	"cpu_util_system":	2.365372,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	853856256,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  84.4 MBytes   708 Mbits/sec   52    209 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   816 MBytes   684 Mbits/sec  591             sender
+[  4]   0.00-10.00  sec   814 MBytes   683 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:59:18 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53018 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 2752
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  66.4 MBytes   557 Mbits/sec  127    227 KBytes       
+tcpi_snd_cwnd 171 tcpi_snd_mss 1408 tcpi_rtt 2918
+[  4]   1.00-2.00   sec  65.2 MBytes   547 Mbits/sec   81    235 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 2854
+[  4]   2.00-3.00   sec  64.3 MBytes   539 Mbits/sec   96    175 KBytes       
+tcpi_snd_cwnd 149 tcpi_snd_mss 1408 tcpi_rtt 2624
+[  4]   3.00-4.00   sec  62.6 MBytes   525 Mbits/sec   57    205 KBytes       
+tcpi_snd_cwnd 153 tcpi_snd_mss 1408 tcpi_rtt 2715
+[  4]   4.00-5.00   sec  65.8 MBytes   552 Mbits/sec   71    210 KBytes       
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 2723
+[  4]   5.00-6.00   sec  61.8 MBytes   518 Mbits/sec   39    176 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 2548
+[  4]   6.00-7.00   sec  63.5 MBytes   533 Mbits/sec   58    206 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 2704
+[  4]   7.00-8.00   sec  60.8 MBytes   510 Mbits/sec   64    169 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 2844
+[  4]   8.00-9.00   sec  64.7 MBytes   543 Mbits/sec   52    183 KBytes       
+tcpi_snd_cwnd 171 tcpi_snd_mss 1408 tcpi_rtt 2592
+send_results
+{
+	"cpu_util_total":	2.483769,
+	"cpu_util_user":	0.430253,
+	"cpu_util_system":	2.053496,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	667922816,
+			"retransmits":	683,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.439741,
+	"cpu_util_user":	0.308250,
+	"cpu_util_system":	3.131497,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	665815040,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  61.8 MBytes   519 Mbits/sec   38    235 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   637 MBytes   534 Mbits/sec  683             sender
+[  4]   0.00-10.00  sec   635 MBytes   533 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:59:35 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53022 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 3275
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  57.6 MBytes   483 Mbits/sec  137    209 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 3321
+[  4]   1.00-2.00   sec  49.5 MBytes   415 Mbits/sec   64    187 KBytes       
+tcpi_snd_cwnd 176 tcpi_snd_mss 1408 tcpi_rtt 3336
+[  4]   2.00-3.00   sec  51.8 MBytes   435 Mbits/sec   15    242 KBytes       
+tcpi_snd_cwnd 145 tcpi_snd_mss 1408 tcpi_rtt 3282
+[  4]   3.00-4.00   sec  53.6 MBytes   450 Mbits/sec  102    199 KBytes       
+tcpi_snd_cwnd 132 tcpi_snd_mss 1408 tcpi_rtt 3384
+[  4]   4.00-5.00   sec  47.4 MBytes   398 Mbits/sec   46    182 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 3563
+[  4]   5.00-6.00   sec  44.9 MBytes   377 Mbits/sec   26    180 KBytes       
+tcpi_snd_cwnd 113 tcpi_snd_mss 1408 tcpi_rtt 3524
+[  4]   6.00-7.00   sec  48.7 MBytes   408 Mbits/sec   44    155 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 3467
+[  4]   7.00-8.00   sec  52.6 MBytes   441 Mbits/sec   74    184 KBytes       
+tcpi_snd_cwnd 142 tcpi_snd_mss 1408 tcpi_rtt 3405
+[  4]   8.00-9.00   sec  44.7 MBytes   375 Mbits/sec   16    195 KBytes       
+tcpi_snd_cwnd 169 tcpi_snd_mss 1408 tcpi_rtt 3551
+send_results
+{
+	"cpu_util_total":	1.911299,
+	"cpu_util_user":	0.358665,
+	"cpu_util_system":	1.552614,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	528996864,
+			"retransmits":	586,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.020086,
+	"cpu_util_user":	1.039480,
+	"cpu_util_system":	1.980605,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	526883456,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  53.7 MBytes   450 Mbits/sec   62    232 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   504 MBytes   423 Mbits/sec  586             sender
+[  4]   0.00-10.00  sec   502 MBytes   422 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 19:59:53 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53028 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3450
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  50.7 MBytes   425 Mbits/sec   83    166 KBytes       
+tcpi_snd_cwnd 161 tcpi_snd_mss 1408 tcpi_rtt 3289
+[  4]   1.00-2.00   sec  49.0 MBytes   411 Mbits/sec   37    221 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 3294
+[  4]   2.00-3.00   sec  55.5 MBytes   465 Mbits/sec   67    183 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 3346
+[  4]   3.00-4.00   sec  48.0 MBytes   403 Mbits/sec   46    183 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 3209
+[  4]   4.00-5.00   sec  47.6 MBytes   400 Mbits/sec   25    180 KBytes       
+tcpi_snd_cwnd 132 tcpi_snd_mss 1408 tcpi_rtt 3566
+[  4]   5.00-6.00   sec  49.5 MBytes   415 Mbits/sec   37    182 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3393
+[  4]   6.00-7.00   sec  43.9 MBytes   368 Mbits/sec   35    166 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 3524
+[  4]   7.00-8.00   sec  49.4 MBytes   414 Mbits/sec   30    158 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 3688
+[  4]   8.00-9.00   sec  44.1 MBytes   370 Mbits/sec   35    198 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 3473
+send_results
+{
+	"cpu_util_total":	1.841250,
+	"cpu_util_user":	0.178513,
+	"cpu_util_system":	1.662747,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	511046272,
+			"retransmits":	417,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.649010,
+	"cpu_util_user":	0,
+	"cpu_util_system":	2.649010,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	508839936,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  49.7 MBytes   417 Mbits/sec   22    180 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   487 MBytes   409 Mbits/sec  417             sender
+[  4]   0.00-10.00  sec   485 MBytes   407 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:00:10 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53034 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 3501
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  54.3 MBytes   456 Mbits/sec  269    201 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 4226
+[  4]   1.00-2.00   sec  52.2 MBytes   438 Mbits/sec   41    212 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 3518
+[  4]   2.00-3.00   sec  50.3 MBytes   422 Mbits/sec   90    194 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 3577
+[  4]   3.00-4.00   sec  51.1 MBytes   429 Mbits/sec   57    151 KBytes       
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 3668
+[  4]   4.00-5.00   sec  53.0 MBytes   445 Mbits/sec   87    179 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 3712
+[  4]   5.00-6.00   sec  59.8 MBytes   502 Mbits/sec  106    184 KBytes       
+tcpi_snd_cwnd 112 tcpi_snd_mss 1408 tcpi_rtt 3390
+[  4]   6.00-7.00   sec  49.4 MBytes   414 Mbits/sec   49    154 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 3392
+[  4]   7.00-8.00   sec  44.5 MBytes   373 Mbits/sec   14    204 KBytes       
+tcpi_snd_cwnd 176 tcpi_snd_mss 1408 tcpi_rtt 3456
+[  4]   8.00-9.00   sec  53.6 MBytes   450 Mbits/sec   60    242 KBytes       
+tcpi_snd_cwnd 108 tcpi_snd_mss 1408 tcpi_rtt 3536
+send_results
+{
+	"cpu_util_total":	1.965869,
+	"cpu_util_user":	0.177152,
+	"cpu_util_system":	1.788727,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	542336256,
+			"retransmits":	846,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.747910,
+	"cpu_util_user":	0.195279,
+	"cpu_util_system":	2.552631,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	539151360,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  49.0 MBytes   411 Mbits/sec   73    148 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   517 MBytes   434 Mbits/sec  846             sender
+[  4]   0.00-10.00  sec   514 MBytes   431 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:00:27 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53040 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 140 tcpi_snd_mss 1408 tcpi_rtt 4350
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  43.7 MBytes   366 Mbits/sec  322    192 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 4232
+[  4]   1.00-2.00   sec  40.5 MBytes   340 Mbits/sec   28    198 KBytes       
+tcpi_snd_cwnd 158 tcpi_snd_mss 1408 tcpi_rtt 4447
+[  4]   2.00-3.00   sec  36.4 MBytes   306 Mbits/sec   21    217 KBytes       
+tcpi_snd_cwnd 160 tcpi_snd_mss 1408 tcpi_rtt 4435
+[  4]   3.00-4.00   sec  42.9 MBytes   360 Mbits/sec   68    220 KBytes       
+tcpi_snd_cwnd 128 tcpi_snd_mss 1408 tcpi_rtt 4404
+[  4]   4.00-5.00   sec  37.2 MBytes   312 Mbits/sec   14    176 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 4293
+[  4]   5.00-6.00   sec  42.1 MBytes   353 Mbits/sec   29    177 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4239
+[  4]   6.00-7.00   sec  38.7 MBytes   325 Mbits/sec   47    183 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 4170
+[  4]   7.00-8.00   sec  40.5 MBytes   339 Mbits/sec   30    191 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 4345
+[  4]   8.00-9.00   sec  43.9 MBytes   368 Mbits/sec   65    190 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 4135
+send_results
+{
+	"cpu_util_total":	1.557113,
+	"cpu_util_user":	0.277580,
+	"cpu_util_system":	1.279543,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	432920576,
+			"retransmits":	697,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.199464,
+	"cpu_util_user":	0,
+	"cpu_util_system":	2.199470,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	429358336,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  46.9 MBytes   394 Mbits/sec   73    180 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   413 MBytes   346 Mbits/sec  697             sender
+[  4]   0.00-10.00  sec   409 MBytes   343 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:00:44 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53046 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 3402
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  60.4 MBytes   507 Mbits/sec  304    206 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3703
+[  4]   1.00-2.00   sec  53.7 MBytes   450 Mbits/sec   98    166 KBytes       
+tcpi_snd_cwnd 168 tcpi_snd_mss 1408 tcpi_rtt 3470
+[  4]   2.00-3.00   sec  47.8 MBytes   401 Mbits/sec   19    231 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 3318
+[  4]   3.00-4.00   sec  52.8 MBytes   443 Mbits/sec   10    198 KBytes       
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 3302
+[  4]   4.00-5.00   sec  50.2 MBytes   421 Mbits/sec   70    179 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 3217
+[  4]   5.00-6.00   sec  54.5 MBytes   457 Mbits/sec   81    209 KBytes       
+tcpi_snd_cwnd 97 tcpi_snd_mss 1408 tcpi_rtt 3310
+[  4]   6.00-7.00   sec  45.1 MBytes   378 Mbits/sec   39    133 KBytes       
+tcpi_snd_cwnd 178 tcpi_snd_mss 1408 tcpi_rtt 3424
+[  4]   7.00-8.00   sec  50.4 MBytes   423 Mbits/sec   35    245 KBytes       
+tcpi_snd_cwnd 149 tcpi_snd_mss 1408 tcpi_rtt 3407
+[  4]   8.00-9.00   sec  50.4 MBytes   423 Mbits/sec   49    205 KBytes       
+tcpi_snd_cwnd 180 tcpi_snd_mss 1408 tcpi_rtt 3363
+send_results
+{
+	"cpu_util_total":	2.794711,
+	"cpu_util_user":	0.317574,
+	"cpu_util_system":	2.477147,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	542896640,
+			"retransmits":	710,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.154704,
+	"cpu_util_user":	1.908322,
+	"cpu_util_system":	1.246377,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	540370688,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  52.5 MBytes   441 Mbits/sec    5    248 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   518 MBytes   434 Mbits/sec  710             sender
+[  4]   0.00-10.00  sec   515 MBytes   432 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:01:02 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53050 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 3395
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  52.0 MBytes   436 Mbits/sec   56    198 KBytes       
+tcpi_snd_cwnd 177 tcpi_snd_mss 1408 tcpi_rtt 3399
+[  4]   1.00-2.00   sec  52.3 MBytes   438 Mbits/sec   37    243 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 3312
+[  4]   2.00-3.00   sec  54.0 MBytes   453 Mbits/sec   93    212 KBytes       
+tcpi_snd_cwnd 102 tcpi_snd_mss 1408 tcpi_rtt 3331
+[  4]   3.00-4.00   sec  45.7 MBytes   383 Mbits/sec   27    140 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 3287
+[  4]   4.00-5.00   sec  46.2 MBytes   388 Mbits/sec   15    209 KBytes       
+tcpi_snd_cwnd 173 tcpi_snd_mss 1408 tcpi_rtt 3381
+[  4]   5.00-6.00   sec  54.7 MBytes   459 Mbits/sec   77    238 KBytes       
+tcpi_snd_cwnd 165 tcpi_snd_mss 1408 tcpi_rtt 3450
+[  4]   6.00-7.00   sec  48.8 MBytes   409 Mbits/sec   42    227 KBytes       
+tcpi_snd_cwnd 102 tcpi_snd_mss 1408 tcpi_rtt 3390
+[  4]   7.00-8.00   sec  49.2 MBytes   413 Mbits/sec   21    140 KBytes       
+tcpi_snd_cwnd 145 tcpi_snd_mss 1408 tcpi_rtt 3236
+[  4]   8.00-9.00   sec  47.3 MBytes   397 Mbits/sec   11    199 KBytes       
+tcpi_snd_cwnd 172 tcpi_snd_mss 1408 tcpi_rtt 3513
+send_results
+{
+	"cpu_util_total":	2.431541,
+	"cpu_util_user":	0.259359,
+	"cpu_util_system":	2.172192,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	524170240,
+			"retransmits":	432,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.746613,
+	"cpu_util_user":	2.097708,
+	"cpu_util_system":	0.648905,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	522720000,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  49.7 MBytes   417 Mbits/sec   53    236 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   500 MBytes   419 Mbits/sec  432             sender
+[  4]   0.00-10.00  sec   499 MBytes   418 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:01:19 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53056 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 117 tcpi_snd_mss 1408 tcpi_rtt 5409
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  37.0 MBytes   310 Mbits/sec  139    161 KBytes       
+tcpi_snd_cwnd 147 tcpi_snd_mss 1408 tcpi_rtt 5263
+[  4]   1.00-2.00   sec  38.0 MBytes   319 Mbits/sec    1    202 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 5268
+[  4]   2.00-3.00   sec  32.5 MBytes   273 Mbits/sec   43    187 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 5358
+[  4]   3.00-4.00   sec  39.4 MBytes   331 Mbits/sec   42    153 KBytes       
+tcpi_snd_cwnd 151 tcpi_snd_mss 1408 tcpi_rtt 5434
+[  4]   4.00-5.00   sec  31.5 MBytes   264 Mbits/sec    6    208 KBytes       
+tcpi_snd_cwnd 176 tcpi_snd_mss 1408 tcpi_rtt 5663
+[  4]   5.00-6.00   sec  40.1 MBytes   336 Mbits/sec   66    242 KBytes       
+tcpi_snd_cwnd 112 tcpi_snd_mss 1408 tcpi_rtt 5383
+[  4]   6.00-7.00   sec  30.6 MBytes   257 Mbits/sec   60    154 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 5425
+[  4]   7.00-8.00   sec  30.9 MBytes   260 Mbits/sec   23    151 KBytes       
+tcpi_snd_cwnd 108 tcpi_snd_mss 1408 tcpi_rtt 5295
+[  4]   8.00-9.00   sec  29.5 MBytes   247 Mbits/sec   21    148 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 5320
+send_results
+{
+	"cpu_util_total":	1.867573,
+	"cpu_util_user":	0.441536,
+	"cpu_util_system":	1.426036,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	357544704,
+			"retransmits":	428,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.041258,
+	"cpu_util_user":	0.567115,
+	"cpu_util_system":	1.474137,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	355162368,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  31.5 MBytes   264 Mbits/sec   27    204 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   341 MBytes   286 Mbits/sec  428             sender
+[  4]   0.00-10.00  sec   339 MBytes   284 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:01:36 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53062 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 3924
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  46.6 MBytes   391 Mbits/sec  169    198 KBytes       
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 4117
+[  4]   1.00-2.00   sec  39.7 MBytes   333 Mbits/sec   40    165 KBytes       
+tcpi_snd_cwnd 190 tcpi_snd_mss 1408 tcpi_rtt 4011
+[  4]   2.00-3.00   sec  42.6 MBytes   357 Mbits/sec   12    261 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 3985
+[  4]   3.00-4.00   sec  42.5 MBytes   356 Mbits/sec   77    190 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 4292
+[  4]   4.00-5.00   sec  41.6 MBytes   349 Mbits/sec   26    209 KBytes       
+tcpi_snd_cwnd 173 tcpi_snd_mss 1408 tcpi_rtt 4095
+[  4]   5.00-6.00   sec  42.4 MBytes   355 Mbits/sec   31    238 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 4053
+[  4]   6.00-7.00   sec  40.0 MBytes   335 Mbits/sec   51    190 KBytes       
+tcpi_snd_cwnd 153 tcpi_snd_mss 1408 tcpi_rtt 4110
+[  4]   7.00-8.00   sec  43.1 MBytes   362 Mbits/sec   52    210 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3913
+[  4]   8.00-9.00   sec  40.8 MBytes   342 Mbits/sec   56    166 KBytes       
+tcpi_snd_cwnd 136 tcpi_snd_mss 1408 tcpi_rtt 4400
+send_results
+{
+	"cpu_util_total":	2.221684,
+	"cpu_util_user":	0.240472,
+	"cpu_util_system":	1.981203,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	443452416,
+			"retransmits":	539,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.593982,
+	"cpu_util_user":	1.577627,
+	"cpu_util_system":	1.016360,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	441234816,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  43.8 MBytes   367 Mbits/sec   25    187 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   423 MBytes   355 Mbits/sec  539             sender
+[  4]   0.00-10.00  sec   421 MBytes   353 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:01:53 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53068 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4027
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  44.7 MBytes   375 Mbits/sec  254    183 KBytes       
+tcpi_snd_cwnd 167 tcpi_snd_mss 1408 tcpi_rtt 3861
+[  4]   1.00-2.00   sec  43.4 MBytes   364 Mbits/sec   30    230 KBytes       
+tcpi_snd_cwnd 147 tcpi_snd_mss 1408 tcpi_rtt 3732
+[  4]   2.00-3.00   sec  42.0 MBytes   352 Mbits/sec   54    202 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 3814
+[  4]   3.00-4.00   sec  41.5 MBytes   348 Mbits/sec   44    177 KBytes       
+tcpi_snd_cwnd 157 tcpi_snd_mss 1408 tcpi_rtt 3964
+[  4]   4.00-5.00   sec  42.8 MBytes   359 Mbits/sec   31    216 KBytes       
+tcpi_snd_cwnd 125 tcpi_snd_mss 1408 tcpi_rtt 3778
+[  4]   5.00-6.00   sec  46.2 MBytes   388 Mbits/sec   37    172 KBytes       
+tcpi_snd_cwnd 106 tcpi_snd_mss 1408 tcpi_rtt 3744
+[  4]   6.00-7.00   sec  40.3 MBytes   338 Mbits/sec   45    146 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 4866
+[  4]   7.00-8.00   sec  41.0 MBytes   344 Mbits/sec    7    175 KBytes       
+tcpi_snd_cwnd 156 tcpi_snd_mss 1408 tcpi_rtt 4039
+[  4]   8.00-9.00   sec  41.9 MBytes   352 Mbits/sec   22    214 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 3827
+send_results
+{
+	"cpu_util_total":	1.663177,
+	"cpu_util_user":	0.145162,
+	"cpu_util_system":	1.518025,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	443928320,
+			"retransmits":	538,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.431728,
+	"cpu_util_user":	1.338607,
+	"cpu_util_system":	1.093121,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	441050368,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  39.5 MBytes   332 Mbits/sec   14    183 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   423 MBytes   355 Mbits/sec  538             sender
+[  4]   0.00-10.00  sec   421 MBytes   353 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:02:11 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53072 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 4220
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  44.9 MBytes   377 Mbits/sec  231    179 KBytes       
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 3654
+[  4]   1.00-2.00   sec  47.4 MBytes   398 Mbits/sec   42    160 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 3365
+[  4]   2.00-3.00   sec  47.3 MBytes   397 Mbits/sec   50    206 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 3442
+[  4]   3.00-4.00   sec  47.9 MBytes   402 Mbits/sec   35    183 KBytes       
+tcpi_snd_cwnd 173 tcpi_snd_mss 1408 tcpi_rtt 3516
+[  4]   4.00-5.00   sec  48.2 MBytes   405 Mbits/sec   37    238 KBytes       
+tcpi_snd_cwnd 139 tcpi_snd_mss 1408 tcpi_rtt 3464
+[  4]   5.00-6.00   sec  52.6 MBytes   441 Mbits/sec   29    191 KBytes       
+tcpi_snd_cwnd 126 tcpi_snd_mss 1408 tcpi_rtt 3413
+[  4]   6.00-7.00   sec  46.9 MBytes   393 Mbits/sec   50    173 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 3495
+[  4]   7.00-8.00   sec  48.7 MBytes   409 Mbits/sec   64    151 KBytes       
+tcpi_snd_cwnd 130 tcpi_snd_mss 1408 tcpi_rtt 3937
+[  4]   8.00-9.00   sec  54.2 MBytes   455 Mbits/sec  105    179 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 3416
+send_results
+{
+	"cpu_util_total":	2.027045,
+	"cpu_util_user":	0.189268,
+	"cpu_util_system":	1.837787,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	506844800,
+			"retransmits":	705,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.866734,
+	"cpu_util_user":	0.845516,
+	"cpu_util_system":	2.021224,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	504259712,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  45.1 MBytes   378 Mbits/sec   62    164 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   483 MBytes   405 Mbits/sec  705             sender
+[  4]   0.00-10.00  sec   481 MBytes   403 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:02:28 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53076 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 100 tcpi_snd_mss 1408 tcpi_rtt 2881
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  51.4 MBytes   431 Mbits/sec   24    138 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 2757
+[  4]   1.00-2.00   sec  54.6 MBytes   458 Mbits/sec   33    188 KBytes       
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 2770
+[  4]   2.00-3.00   sec  56.4 MBytes   473 Mbits/sec   71    165 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 2727
+[  4]   3.00-4.00   sec  54.1 MBytes   454 Mbits/sec   45    153 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 2700
+[  4]   4.00-5.00   sec  54.4 MBytes   456 Mbits/sec   37    197 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 2835
+[  4]   5.00-6.00   sec  56.2 MBytes   472 Mbits/sec   58    170 KBytes       
+tcpi_snd_cwnd 101 tcpi_snd_mss 1408 tcpi_rtt 2606
+[  4]   6.00-7.00   sec  55.8 MBytes   468 Mbits/sec   58    139 KBytes       
+tcpi_snd_cwnd 97 tcpi_snd_mss 1408 tcpi_rtt 2607
+[  4]   7.00-8.00   sec  53.9 MBytes   452 Mbits/sec   45    133 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 2910
+[  4]   8.00-9.00   sec  56.7 MBytes   476 Mbits/sec   58    175 KBytes       
+tcpi_snd_cwnd 115 tcpi_snd_mss 1408 tcpi_rtt 2993
+send_results
+{
+	"cpu_util_total":	2.267260,
+	"cpu_util_user":	0.474644,
+	"cpu_util_system":	1.792626,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	577118080,
+			"retransmits":	487,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.539212,
+	"cpu_util_user":	0.839950,
+	"cpu_util_system":	2.699275,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	575555200,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  56.9 MBytes   477 Mbits/sec   58    158 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   550 MBytes   462 Mbits/sec  487             sender
+[  4]   0.00-10.00  sec   549 MBytes   460 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:02:45 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53086 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 166 tcpi_snd_mss 1408 tcpi_rtt 4414
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  39.0 MBytes   327 Mbits/sec  233    228 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 4534
+[  4]   1.00-2.00   sec  38.7 MBytes   324 Mbits/sec   74    169 KBytes       
+tcpi_snd_cwnd 98 tcpi_snd_mss 1408 tcpi_rtt 5000
+[  4]   2.00-3.00   sec  35.6 MBytes   299 Mbits/sec   31    135 KBytes       
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 4246
+[  4]   3.00-4.00   sec  35.8 MBytes   300 Mbits/sec   34    160 KBytes       
+tcpi_snd_cwnd 132 tcpi_snd_mss 1408 tcpi_rtt 4414
+[  4]   4.00-5.00   sec  36.7 MBytes   308 Mbits/sec   35    182 KBytes       
+tcpi_snd_cwnd 146 tcpi_snd_mss 1408 tcpi_rtt 4162
+[  4]   5.00-6.00   sec  37.9 MBytes   318 Mbits/sec   29    201 KBytes       
+tcpi_snd_cwnd 157 tcpi_snd_mss 1408 tcpi_rtt 4193
+[  4]   6.00-7.00   sec  38.9 MBytes   326 Mbits/sec   23    216 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 4128
+[  4]   7.00-8.00   sec  34.2 MBytes   287 Mbits/sec   25    177 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 4391
+[  4]   8.00-9.00   sec  41.6 MBytes   349 Mbits/sec   65    180 KBytes       
+tcpi_snd_cwnd 152 tcpi_snd_mss 1408 tcpi_rtt 4242
+send_results
+{
+	"cpu_util_total":	1.579674,
+	"cpu_util_user":	0.325455,
+	"cpu_util_system":	1.254250,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	392705280,
+			"retransmits":	554,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.302982,
+	"cpu_util_user":	1.152345,
+	"cpu_util_system":	1.150636,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	390139904,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  36.1 MBytes   303 Mbits/sec    5    209 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   375 MBytes   314 Mbits/sec  554             sender
+[  4]   0.00-10.00  sec   372 MBytes   312 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:03:02 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53090 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 157 tcpi_snd_mss 1408 tcpi_rtt 2627
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  56.8 MBytes   476 Mbits/sec   55    216 KBytes       
+tcpi_snd_cwnd 99 tcpi_snd_mss 1408 tcpi_rtt 2674
+[  4]   1.00-2.00   sec  55.7 MBytes   467 Mbits/sec   64    136 KBytes       
+tcpi_snd_cwnd 103 tcpi_snd_mss 1408 tcpi_rtt 2956
+[  4]   2.00-3.00   sec  51.2 MBytes   430 Mbits/sec   16    142 KBytes       
+tcpi_snd_cwnd 150 tcpi_snd_mss 1408 tcpi_rtt 2803
+[  4]   3.00-4.00   sec  56.0 MBytes   470 Mbits/sec   39    206 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 2721
+[  4]   4.00-5.00   sec  58.8 MBytes   493 Mbits/sec   97    180 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 2550
+[  4]   5.00-6.00   sec  56.2 MBytes   472 Mbits/sec   58    175 KBytes       
+tcpi_snd_cwnd 109 tcpi_snd_mss 1408 tcpi_rtt 2719
+[  4]   6.00-7.00   sec  56.0 MBytes   470 Mbits/sec   68    150 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 2784
+[  4]   7.00-8.00   sec  55.2 MBytes   463 Mbits/sec   25    212 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 2713
+[  4]   8.00-9.00   sec  54.1 MBytes   454 Mbits/sec   61    198 KBytes       
+tcpi_snd_cwnd 141 tcpi_snd_mss 1408 tcpi_rtt 2670
+send_results
+{
+	"cpu_util_total":	2.289938,
+	"cpu_util_user":	0.333345,
+	"cpu_util_system":	1.956573,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	583092224,
+			"retransmits":	550,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.896519,
+	"cpu_util_user":	0.456418,
+	"cpu_util_system":	3.440107,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	581473024,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  56.1 MBytes   470 Mbits/sec   67    194 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   556 MBytes   466 Mbits/sec  550             sender
+[  4]   0.00-10.00  sec   555 MBytes   465 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:03:19 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53094 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 105 tcpi_snd_mss 1408 tcpi_rtt 3586
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  42.2 MBytes   354 Mbits/sec  278    144 KBytes       
+tcpi_snd_cwnd 102 tcpi_snd_mss 1408 tcpi_rtt 3591
+[  4]   1.00-2.00   sec  38.3 MBytes   321 Mbits/sec   22    140 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 4461
+[  4]   2.00-3.00   sec  42.5 MBytes   356 Mbits/sec   62    170 KBytes       
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 4070
+[  4]   3.00-4.00   sec  39.9 MBytes   335 Mbits/sec   38    165 KBytes       
+tcpi_snd_cwnd 144 tcpi_snd_mss 1408 tcpi_rtt 3833
+[  4]   4.00-5.00   sec  44.2 MBytes   371 Mbits/sec   54    198 KBytes       
+tcpi_snd_cwnd 123 tcpi_snd_mss 1408 tcpi_rtt 3679
+[  4]   5.00-6.00   sec  42.6 MBytes   357 Mbits/sec   72    169 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 3819
+[  4]   6.00-7.00   sec  42.1 MBytes   353 Mbits/sec   37    219 KBytes       
+tcpi_snd_cwnd 100 tcpi_snd_mss 1408 tcpi_rtt 3767
+[  4]   7.00-8.00   sec  39.5 MBytes   331 Mbits/sec   63    138 KBytes       
+tcpi_snd_cwnd 98 tcpi_snd_mss 1408 tcpi_rtt 3603
+[  4]   8.00-9.00   sec  39.5 MBytes   332 Mbits/sec   25    135 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3795
+send_results
+{
+	"cpu_util_total":	1.664240,
+	"cpu_util_user":	0.179334,
+	"cpu_util_system":	1.484916,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	429504768,
+			"retransmits":	691,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	2.750958,
+	"cpu_util_user":	1.295874,
+	"cpu_util_system":	1.455078,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	426553600,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  38.8 MBytes   325 Mbits/sec   40    166 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   410 MBytes   344 Mbits/sec  691             sender
+[  4]   0.00-10.00  sec   407 MBytes   341 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:03:37 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53098 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 169 tcpi_snd_mss 1408 tcpi_rtt 3125
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  55.4 MBytes   465 Mbits/sec  199    232 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 2982
+[  4]   1.00-2.00   sec  49.8 MBytes   418 Mbits/sec   87    180 KBytes       
+tcpi_snd_cwnd 107 tcpi_snd_mss 1408 tcpi_rtt 2957
+[  4]   2.00-3.00   sec  51.0 MBytes   428 Mbits/sec   61    147 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 2906
+[  4]   3.00-4.00   sec  49.7 MBytes   417 Mbits/sec   29    180 KBytes       
+tcpi_snd_cwnd 106 tcpi_snd_mss 1408 tcpi_rtt 2970
+[  4]   4.00-5.00   sec  50.6 MBytes   425 Mbits/sec   67    146 KBytes       
+tcpi_snd_cwnd 122 tcpi_snd_mss 1408 tcpi_rtt 2934
+[  4]   5.00-6.00   sec  51.3 MBytes   431 Mbits/sec   67    168 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 2827
+[  4]   6.00-7.00   sec  47.2 MBytes   396 Mbits/sec   27    153 KBytes       
+tcpi_snd_cwnd 127 tcpi_snd_mss 1408 tcpi_rtt 2852
+[  4]   7.00-8.00   sec  50.3 MBytes   422 Mbits/sec   27    175 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 3160
+[  4]   8.00-9.00   sec  48.7 MBytes   408 Mbits/sec   36    204 KBytes       
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 3078
+send_results
+{
+	"cpu_util_total":	2.029211,
+	"cpu_util_user":	0.299110,
+	"cpu_util_system":	1.730081,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	527960576,
+			"retransmits":	643,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.388936,
+	"cpu_util_user":	1.297016,
+	"cpu_util_system":	3.091920,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	525305088,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  49.3 MBytes   413 Mbits/sec   43    170 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   504 MBytes   422 Mbits/sec  643             sender
+[  4]   0.00-10.00  sec   501 MBytes   420 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:03:54 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53108 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 99 tcpi_snd_mss 1408 tcpi_rtt 3608
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  41.9 MBytes   351 Mbits/sec  118    136 KBytes       
+tcpi_snd_cwnd 170 tcpi_snd_mss 1408 tcpi_rtt 3838
+[  4]   1.00-2.00   sec  45.5 MBytes   381 Mbits/sec   49    234 KBytes       
+tcpi_snd_cwnd 107 tcpi_snd_mss 1408 tcpi_rtt 3707
+[  4]   2.00-3.00   sec  39.3 MBytes   330 Mbits/sec   88    147 KBytes       
+tcpi_snd_cwnd 99 tcpi_snd_mss 1408 tcpi_rtt 3803
+[  4]   3.00-4.00   sec  37.9 MBytes   318 Mbits/sec   42    136 KBytes       
+tcpi_snd_cwnd 143 tcpi_snd_mss 1408 tcpi_rtt 3695
+[  4]   4.00-5.00   sec  37.1 MBytes   311 Mbits/sec   13    197 KBytes       
+tcpi_snd_cwnd 133 tcpi_snd_mss 1408 tcpi_rtt 4923
+[  4]   5.00-6.00   sec  37.8 MBytes   317 Mbits/sec   52    183 KBytes       
+tcpi_snd_cwnd 121 tcpi_snd_mss 1408 tcpi_rtt 3988
+[  4]   6.00-7.00   sec  37.6 MBytes   315 Mbits/sec   47    166 KBytes       
+tcpi_snd_cwnd 148 tcpi_snd_mss 1408 tcpi_rtt 3855
+[  4]   7.00-8.00   sec  37.1 MBytes   311 Mbits/sec   40    204 KBytes       
+tcpi_snd_cwnd 105 tcpi_snd_mss 1408 tcpi_rtt 3669
+[  4]   8.00-9.00   sec  39.2 MBytes   329 Mbits/sec  102    144 KBytes       
+tcpi_snd_cwnd 101 tcpi_snd_mss 1408 tcpi_rtt 3830
+send_results
+{
+	"cpu_util_total":	1.913220,
+	"cpu_util_user":	0.377785,
+	"cpu_util_system":	1.535445,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	407599104,
+			"retransmits":	585,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.174463,
+	"cpu_util_user":	1.823564,
+	"cpu_util_system":	1.350894,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	405681408,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  35.4 MBytes   297 Mbits/sec   34    139 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   389 MBytes   326 Mbits/sec  585             sender
+[  4]   0.00-10.00  sec   387 MBytes   325 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:04:11 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53112 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 4799
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  38.0 MBytes   318 Mbits/sec  170    180 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 4188
+[  4]   1.00-2.00   sec  33.4 MBytes   280 Mbits/sec   32    164 KBytes       
+tcpi_snd_cwnd 145 tcpi_snd_mss 1408 tcpi_rtt 4103
+[  4]   2.00-3.00   sec  34.2 MBytes   286 Mbits/sec    9    199 KBytes       
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 4205
+[  4]   3.00-4.00   sec  36.6 MBytes   307 Mbits/sec   77    160 KBytes       
+tcpi_snd_cwnd 99 tcpi_snd_mss 1408 tcpi_rtt 4181
+[  4]   4.00-5.00   sec  32.7 MBytes   274 Mbits/sec   32    136 KBytes       
+tcpi_snd_cwnd 87 tcpi_snd_mss 1408 tcpi_rtt 4037
+[  4]   5.00-6.00   sec  33.7 MBytes   283 Mbits/sec   34    120 KBytes       
+tcpi_snd_cwnd 159 tcpi_snd_mss 1408 tcpi_rtt 4732
+[  4]   6.00-7.00   sec  34.7 MBytes   291 Mbits/sec   13    219 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 4255
+[  4]   7.00-8.00   sec  32.9 MBytes   276 Mbits/sec   58    184 KBytes       
+tcpi_snd_cwnd 113 tcpi_snd_mss 1408 tcpi_rtt 4366
+[  4]   8.00-9.00   sec  32.6 MBytes   274 Mbits/sec   45    155 KBytes       
+tcpi_snd_cwnd 134 tcpi_snd_mss 1408 tcpi_rtt 4806
+send_results
+{
+	"cpu_util_total":	1.500291,
+	"cpu_util_user":	0.213944,
+	"cpu_util_system":	1.286357,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	359311744,
+			"retransmits":	508,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.577824,
+	"cpu_util_user":	1.085701,
+	"cpu_util_system":	2.492117,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	357334912,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  34.0 MBytes   285 Mbits/sec   38    184 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   343 MBytes   287 Mbits/sec  508             sender
+[  4]   0.00-10.00  sec   341 MBytes   286 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:04:28 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53116 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 124 tcpi_snd_mss 1408 tcpi_rtt 6267
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  32.6 MBytes   273 Mbits/sec  230    170 KBytes       
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 4625
+[  4]   1.00-2.00   sec  31.0 MBytes   260 Mbits/sec   14    165 KBytes       
+tcpi_snd_cwnd 97 tcpi_snd_mss 1408 tcpi_rtt 4164
+[  4]   2.00-3.00   sec  32.3 MBytes   271 Mbits/sec   27    133 KBytes       
+tcpi_snd_cwnd 117 tcpi_snd_mss 1408 tcpi_rtt 5053
+[  4]   3.00-4.00   sec  29.3 MBytes   246 Mbits/sec    5    161 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 14986
+[  4]   4.00-5.00   sec  20.7 MBytes   174 Mbits/sec    6   94.9 KBytes       
+tcpi_snd_cwnd 70 tcpi_snd_mss 1408 tcpi_rtt 12652
+[  4]   5.00-6.00   sec  7.35 MBytes  61.7 Mbits/sec    1   96.2 KBytes       
+tcpi_snd_cwnd 83 tcpi_snd_mss 1408 tcpi_rtt 14813
+[  4]   6.00-7.00   sec  7.23 MBytes  60.6 Mbits/sec    1    114 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 12361
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    2   94.9 KBytes       
+tcpi_snd_cwnd 81 tcpi_snd_mss 1408 tcpi_rtt 14547
+[  4]   8.00-9.00   sec  7.29 MBytes  61.2 Mbits/sec    1    111 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 12043
+send_results
+{
+	"cpu_util_total":	1.005943,
+	"cpu_util_user":	0.213911,
+	"cpu_util_system":	0.792051,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	191095168,
+			"retransmits":	289,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.331708,
+	"cpu_util_user":	1.314468,
+	"cpu_util_system":	3.017240,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	188556544,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    2   90.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   182 MBytes   153 Mbits/sec  289             sender
+[  4]   0.00-10.00  sec   180 MBytes   151 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:04:46 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53122 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 126 tcpi_snd_mss 1408 tcpi_rtt 4554
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  31.9 MBytes   267 Mbits/sec   81    173 KBytes       
+tcpi_snd_cwnd 52 tcpi_snd_mss 1408 tcpi_rtt 4119
+[  4]   1.00-2.00   sec  16.8 MBytes   141 Mbits/sec   21   71.5 KBytes       
+tcpi_snd_cwnd 105 tcpi_snd_mss 1408 tcpi_rtt 4567
+[  4]   2.00-3.00   sec  25.3 MBytes   212 Mbits/sec    2    144 KBytes       
+tcpi_snd_cwnd 85 tcpi_snd_mss 1408 tcpi_rtt 15461
+[  4]   3.00-4.00   sec  9.51 MBytes  79.8 Mbits/sec   32    117 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 12252
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    3   94.9 KBytes       
+tcpi_snd_cwnd 81 tcpi_snd_mss 1408 tcpi_rtt 14688
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    1    111 KBytes       
+tcpi_snd_cwnd 65 tcpi_snd_mss 1408 tcpi_rtt 11847
+[  4]   6.00-7.00   sec  7.23 MBytes  60.6 Mbits/sec    2   89.4 KBytes       
+tcpi_snd_cwnd 77 tcpi_snd_mss 1408 tcpi_rtt 14007
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    1    106 KBytes       
+tcpi_snd_cwnd 61 tcpi_snd_mss 1408 tcpi_rtt 10821
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    3   83.9 KBytes       
+tcpi_snd_cwnd 73 tcpi_snd_mss 1408 tcpi_rtt 13023
+send_results
+{
+	"cpu_util_total":	0.823414,
+	"cpu_util_user":	0.245986,
+	"cpu_util_system":	0.577458,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	133312256,
+			"retransmits":	147,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.289052,
+	"cpu_util_user":	1.842109,
+	"cpu_util_system":	2.446949,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131476224,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    1    100 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   107 Mbits/sec  147             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:05:03 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53130 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 6224
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  33.2 MBytes   278 Mbits/sec   85    188 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 5767
+[  4]   1.00-2.00   sec  28.6 MBytes   240 Mbits/sec   32    153 KBytes       
+tcpi_snd_cwnd 64 tcpi_snd_mss 1408 tcpi_rtt 11436
+[  4]   2.00-3.00   sec  14.2 MBytes   119 Mbits/sec   20   88.0 KBytes       
+tcpi_snd_cwnd 76 tcpi_snd_mss 1408 tcpi_rtt 13454
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    2    104 KBytes       
+tcpi_snd_cwnd 85 tcpi_snd_mss 1408 tcpi_rtt 15390
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2    117 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 12486
+[  4]   5.00-6.00   sec  7.23 MBytes  60.6 Mbits/sec    3   94.9 KBytes       
+tcpi_snd_cwnd 81 tcpi_snd_mss 1408 tcpi_rtt 14454
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    1    111 KBytes       
+tcpi_snd_cwnd 65 tcpi_snd_mss 1408 tcpi_rtt 11503
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    3   89.4 KBytes       
+tcpi_snd_cwnd 77 tcpi_snd_mss 1408 tcpi_rtt 13692
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    1    106 KBytes       
+tcpi_snd_cwnd 79 tcpi_snd_mss 1408 tcpi_rtt 15409
+send_results
+{
+	"cpu_util_total":	0.873175,
+	"cpu_util_user":	0.237848,
+	"cpu_util_system":	0.635337,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	133067264,
+			"retransmits":	152,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.494486,
+	"cpu_util_user":	1.383500,
+	"cpu_util_system":	3.111050,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131403008,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    3    109 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   106 Mbits/sec  152             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:05:20 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53134 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 100 tcpi_snd_mss 1408 tcpi_rtt 3535
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  32.4 MBytes   272 Mbits/sec   13    138 KBytes       
+tcpi_snd_cwnd 89 tcpi_snd_mss 1408 tcpi_rtt 4033
+[  4]   1.00-2.00   sec  29.0 MBytes   244 Mbits/sec   12    122 KBytes       
+tcpi_snd_cwnd 52 tcpi_snd_mss 1408 tcpi_rtt 9260
+[  4]   2.00-3.00   sec  13.8 MBytes   116 Mbits/sec    6   71.5 KBytes       
+tcpi_snd_cwnd 73 tcpi_snd_mss 1408 tcpi_rtt 12971
+[  4]   3.00-4.00   sec  7.23 MBytes  60.6 Mbits/sec    1    100 KBytes       
+tcpi_snd_cwnd 70 tcpi_snd_mss 1408 tcpi_rtt 12577
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2   96.2 KBytes       
+tcpi_snd_cwnd 68 tcpi_snd_mss 1408 tcpi_rtt 12215
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    2   93.5 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 11787
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    2   90.8 KBytes       
+tcpi_snd_cwnd 61 tcpi_snd_mss 1408 tcpi_rtt 11075
+[  4]   7.00-8.00   sec  7.23 MBytes  60.6 Mbits/sec    2   83.9 KBytes       
+tcpi_snd_cwnd 59 tcpi_snd_mss 1408 tcpi_rtt 10393
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    2   81.1 KBytes       
+tcpi_snd_cwnd 55 tcpi_snd_mss 1408 tcpi_rtt 9197
+send_results
+{
+	"cpu_util_total":	1.160770,
+	"cpu_util_user":	0.241237,
+	"cpu_util_system":	0.919554,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132268928,
+			"retransmits":	44,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.969596,
+	"cpu_util_user":	3.821748,
+	"cpu_util_system":	2.147854,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131350912,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    2   75.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   126 MBytes   106 Mbits/sec   44             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:05:37 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53140 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 75 tcpi_snd_mss 1408 tcpi_rtt 2760
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  33.1 MBytes   278 Mbits/sec   26    103 KBytes       
+tcpi_snd_cwnd 84 tcpi_snd_mss 1408 tcpi_rtt 3255
+[  4]   1.00-2.00   sec  29.1 MBytes   244 Mbits/sec   14    116 KBytes       
+tcpi_snd_cwnd 58 tcpi_snd_mss 1408 tcpi_rtt 10401
+[  4]   2.00-3.00   sec  12.8 MBytes   108 Mbits/sec    7   79.8 KBytes       
+tcpi_snd_cwnd 58 tcpi_snd_mss 1408 tcpi_rtt 10358
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    4   79.8 KBytes       
+tcpi_snd_cwnd 60 tcpi_snd_mss 1408 tcpi_rtt 11334
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    3   82.5 KBytes       
+tcpi_snd_cwnd 64 tcpi_snd_mss 1408 tcpi_rtt 11158
+[  4]   5.00-6.00   sec  7.23 MBytes  60.6 Mbits/sec    2   88.0 KBytes       
+tcpi_snd_cwnd 65 tcpi_snd_mss 1408 tcpi_rtt 11427
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    3   89.4 KBytes       
+tcpi_snd_cwnd 67 tcpi_snd_mss 1408 tcpi_rtt 11940
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    2   92.1 KBytes       
+tcpi_snd_cwnd 67 tcpi_snd_mss 1408 tcpi_rtt 12110
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    3   92.1 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 11071
+send_results
+{
+	"cpu_util_total":	1.035927,
+	"cpu_util_user":	0.194833,
+	"cpu_util_system":	0.841123,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132105600,
+			"retransmits":	66,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.347585,
+	"cpu_util_user":	0.799681,
+	"cpu_util_system":	4.547910,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131334016,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    2   94.9 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   126 MBytes   106 Mbits/sec   66             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:05:55 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53144 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 108 tcpi_snd_mss 1408 tcpi_rtt 5168
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  29.5 MBytes   247 Mbits/sec   80    148 KBytes       
+tcpi_snd_cwnd 94 tcpi_snd_mss 1408 tcpi_rtt 5158
+[  4]   1.00-2.00   sec  28.8 MBytes   242 Mbits/sec   17    129 KBytes       
+tcpi_snd_cwnd 85 tcpi_snd_mss 1408 tcpi_rtt 15534
+[  4]   2.00-3.00   sec  18.0 MBytes   151 Mbits/sec   31    117 KBytes       
+tcpi_snd_cwnd 63 tcpi_snd_mss 1408 tcpi_rtt 13498
+[  4]   3.00-4.00   sec  7.23 MBytes  60.6 Mbits/sec    2   86.6 KBytes       
+tcpi_snd_cwnd 71 tcpi_snd_mss 1408 tcpi_rtt 12974
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2   97.6 KBytes       
+tcpi_snd_cwnd 79 tcpi_snd_mss 1408 tcpi_rtt 14210
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    2    109 KBytes       
+tcpi_snd_cwnd 86 tcpi_snd_mss 1408 tcpi_rtt 15474
+[  4]   6.00-7.00   sec  7.23 MBytes  60.6 Mbits/sec    1    118 KBytes       
+tcpi_snd_cwnd 65 tcpi_snd_mss 1408 tcpi_rtt 11592
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    2   89.4 KBytes       
+tcpi_snd_cwnd 73 tcpi_snd_mss 1408 tcpi_rtt 12956
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    1    100 KBytes       
+tcpi_snd_cwnd 81 tcpi_snd_mss 1408 tcpi_rtt 14429
+send_results
+{
+	"cpu_util_total":	0.899672,
+	"cpu_util_user":	0.185750,
+	"cpu_util_system":	0.713912,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	133341824,
+			"retransmits":	139,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.819361,
+	"cpu_util_user":	1.522756,
+	"cpu_util_system":	3.296640,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131360768,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    1    111 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   107 Mbits/sec  139             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:06:12 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53150 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 120 tcpi_snd_mss 1408 tcpi_rtt 5516
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  33.9 MBytes   284 Mbits/sec  169    165 KBytes       
+tcpi_snd_cwnd 154 tcpi_snd_mss 1408 tcpi_rtt 8113
+[  4]   1.00-2.00   sec  26.4 MBytes   222 Mbits/sec    9    212 KBytes       
+tcpi_snd_cwnd 74 tcpi_snd_mss 1408 tcpi_rtt 13228
+[  4]   2.00-3.00   sec  16.6 MBytes   139 Mbits/sec   40    102 KBytes       
+tcpi_snd_cwnd 82 tcpi_snd_mss 1408 tcpi_rtt 13060
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    1    113 KBytes       
+tcpi_snd_cwnd 88 tcpi_snd_mss 1408 tcpi_rtt 15502
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    1    121 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 11763
+[  4]   5.00-6.00   sec  7.23 MBytes  60.6 Mbits/sec    3   90.8 KBytes       
+tcpi_snd_cwnd 72 tcpi_snd_mss 1408 tcpi_rtt 12940
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    1   99.0 KBytes       
+tcpi_snd_cwnd 79 tcpi_snd_mss 1408 tcpi_rtt 14187
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    1    109 KBytes       
+tcpi_snd_cwnd 86 tcpi_snd_mss 1408 tcpi_rtt 15551
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    1    118 KBytes       
+tcpi_snd_cwnd 92 tcpi_snd_mss 1408 tcpi_rtt 16652
+send_results
+{
+	"cpu_util_total":	0.896256,
+	"cpu_util_user":	0.208432,
+	"cpu_util_system":	0.687843,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	133979648,
+			"retransmits":	227,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.261546,
+	"cpu_util_user":	0.860986,
+	"cpu_util_system":	3.400561,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132963072,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    1    126 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   128 MBytes   107 Mbits/sec  227             sender
+[  4]   0.00-10.00  sec   127 MBytes   106 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:06:29 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53156 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 105 tcpi_snd_mss 1408 tcpi_rtt 5535
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  24.4 MBytes   204 Mbits/sec   41    144 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 5410
+[  4]   1.00-2.00   sec  24.8 MBytes   208 Mbits/sec   23    151 KBytes       
+tcpi_snd_cwnd 111 tcpi_snd_mss 1408 tcpi_rtt 5358
+[  4]   2.00-3.00   sec  24.9 MBytes   209 Mbits/sec   35    153 KBytes       
+tcpi_snd_cwnd 84 tcpi_snd_mss 1408 tcpi_rtt 15235
+[  4]   3.00-4.00   sec  9.14 MBytes  76.7 Mbits/sec   32    116 KBytes       
+tcpi_snd_cwnd 84 tcpi_snd_mss 1408 tcpi_rtt 16161
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2    116 KBytes       
+tcpi_snd_cwnd 70 tcpi_snd_mss 1408 tcpi_rtt 12587
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    1   96.2 KBytes       
+tcpi_snd_cwnd 78 tcpi_snd_mss 1408 tcpi_rtt 14082
+[  4]   6.00-7.00   sec  7.23 MBytes  60.6 Mbits/sec    1    107 KBytes       
+tcpi_snd_cwnd 85 tcpi_snd_mss 1408 tcpi_rtt 15308
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    1    117 KBytes       
+tcpi_snd_cwnd 63 tcpi_snd_mss 1408 tcpi_rtt 16859
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    2   86.6 KBytes       
+tcpi_snd_cwnd 71 tcpi_snd_mss 1408 tcpi_rtt 11856
+send_results
+{
+	"cpu_util_total":	0.858773,
+	"cpu_util_user":	0.111396,
+	"cpu_util_system":	0.747387,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132929280,
+			"retransmits":	139,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	3.800473,
+	"cpu_util_user":	2.273558,
+	"cpu_util_system":	1.526921,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131328384,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.2 Mbits/sec    1   97.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   106 Mbits/sec  139             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:06:47 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53162 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 112 tcpi_snd_mss 1408 tcpi_rtt 4195
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  30.0 MBytes   252 Mbits/sec   28    154 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 5541
+[  4]   1.00-2.00   sec  30.0 MBytes   252 Mbits/sec   16    180 KBytes       
+tcpi_snd_cwnd 59 tcpi_snd_mss 1408 tcpi_rtt 11111
+[  4]   2.00-3.00   sec  15.6 MBytes   131 Mbits/sec   17   81.1 KBytes       
+tcpi_snd_cwnd 72 tcpi_snd_mss 1408 tcpi_rtt 12970
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    1   99.0 KBytes       
+tcpi_snd_cwnd 60 tcpi_snd_mss 1408 tcpi_rtt 10682
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2   82.5 KBytes       
+tcpi_snd_cwnd 74 tcpi_snd_mss 1408 tcpi_rtt 13321
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    1    102 KBytes       
+tcpi_snd_cwnd 61 tcpi_snd_mss 1408 tcpi_rtt 11089
+[  4]   6.00-7.00   sec  7.23 MBytes  60.6 Mbits/sec    2   83.9 KBytes       
+tcpi_snd_cwnd 77 tcpi_snd_mss 1408 tcpi_rtt 13691
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    1    106 KBytes       
+tcpi_snd_cwnd 64 tcpi_snd_mss 1408 tcpi_rtt 11285
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    2   88.0 KBytes       
+tcpi_snd_cwnd 78 tcpi_snd_mss 1408 tcpi_rtt 13942
+send_results
+{
+	"cpu_util_total":	1.069037,
+	"cpu_util_user":	0.463599,
+	"cpu_util_system":	0.605448,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132742016,
+			"retransmits":	71,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.430528,
+	"cpu_util_user":	2.835991,
+	"cpu_util_system":	2.594537,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131495936,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    1    107 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   106 Mbits/sec   71             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:07:04 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53166 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 100 tcpi_snd_mss 1408 tcpi_rtt 3999
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  31.1 MBytes   261 Mbits/sec   16    138 KBytes       
+tcpi_snd_cwnd 114 tcpi_snd_mss 1408 tcpi_rtt 5826
+[  4]   1.00-2.00   sec  29.9 MBytes   251 Mbits/sec    3    157 KBytes       
+tcpi_snd_cwnd 77 tcpi_snd_mss 1408 tcpi_rtt 13690
+[  4]   2.00-3.00   sec  14.7 MBytes   123 Mbits/sec   39    106 KBytes       
+tcpi_snd_cwnd 64 tcpi_snd_mss 1408 tcpi_rtt 11484
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    2   88.0 KBytes       
+tcpi_snd_cwnd 79 tcpi_snd_mss 1408 tcpi_rtt 14042
+[  4]   4.00-5.00   sec  7.23 MBytes  60.6 Mbits/sec    1    109 KBytes       
+tcpi_snd_cwnd 67 tcpi_snd_mss 1408 tcpi_rtt 11905
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    2   92.1 KBytes       
+tcpi_snd_cwnd 82 tcpi_snd_mss 1408 tcpi_rtt 14778
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    1    113 KBytes       
+tcpi_snd_cwnd 71 tcpi_snd_mss 1408 tcpi_rtt 12570
+[  4]   7.00-8.00   sec  7.23 MBytes  60.6 Mbits/sec    2   97.6 KBytes       
+tcpi_snd_cwnd 59 tcpi_snd_mss 1408 tcpi_rtt 10407
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    2   81.1 KBytes       
+tcpi_snd_cwnd 73 tcpi_snd_mss 1408 tcpi_rtt 13345
+send_results
+{
+	"cpu_util_total":	1.043007,
+	"cpu_util_user":	0.212106,
+	"cpu_util_system":	0.830930,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132737792,
+			"retransmits":	69,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	4.989699,
+	"cpu_util_user":	1.630304,
+	"cpu_util_system":	3.359430,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131476224,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    1    100 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   127 MBytes   106 Mbits/sec   69             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:07:21 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53172 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 4044
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  31.4 MBytes   263 Mbits/sec   14    151 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 5275
+[  4]   1.00-2.00   sec  29.7 MBytes   249 Mbits/sec   10    151 KBytes       
+tcpi_snd_cwnd 56 tcpi_snd_mss 1408 tcpi_rtt 9546
+[  4]   2.00-3.00   sec  14.4 MBytes   121 Mbits/sec    9   77.0 KBytes       
+tcpi_snd_cwnd 74 tcpi_snd_mss 1408 tcpi_rtt 13214
+[  4]   3.00-4.00   sec  7.29 MBytes  61.2 Mbits/sec    1    102 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 11847
+[  4]   4.00-5.00   sec  7.23 MBytes  60.6 Mbits/sec    2   90.8 KBytes       
+tcpi_snd_cwnd 57 tcpi_snd_mss 1408 tcpi_rtt 10060
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    2   78.4 KBytes       
+tcpi_snd_cwnd 75 tcpi_snd_mss 1408 tcpi_rtt 13624
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    2    103 KBytes       
+tcpi_snd_cwnd 55 tcpi_snd_mss 1408 tcpi_rtt 9688
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    3   75.6 KBytes       
+tcpi_snd_cwnd 74 tcpi_snd_mss 1408 tcpi_rtt 13322
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    1    102 KBytes       
+tcpi_snd_cwnd 68 tcpi_snd_mss 1408 tcpi_rtt 12226
+send_results
+{
+	"cpu_util_total":	0.909123,
+	"cpu_util_user":	0.151671,
+	"cpu_util_system":	0.757433,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132508288,
+			"retransmits":	46,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.435063,
+	"cpu_util_user":	3.450507,
+	"cpu_util_system":	1.984626,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131445248,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    2   93.5 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   126 MBytes   106 Mbits/sec   46             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:07:38 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53180 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 4007
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  31.7 MBytes   266 Mbits/sec   10    160 KBytes       
+tcpi_snd_cwnd 93 tcpi_snd_mss 1408 tcpi_rtt 3969
+[  4]   1.00-2.00   sec  29.8 MBytes   250 Mbits/sec    4    128 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 9843
+[  4]   2.00-3.00   sec  13.8 MBytes   116 Mbits/sec   24   90.8 KBytes       
+tcpi_snd_cwnd 60 tcpi_snd_mss 1408 tcpi_rtt 10646
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    3   82.5 KBytes       
+tcpi_snd_cwnd 55 tcpi_snd_mss 1408 tcpi_rtt 9582
+[  4]   4.00-5.00   sec  7.23 MBytes  60.6 Mbits/sec    2   75.6 KBytes       
+tcpi_snd_cwnd 74 tcpi_snd_mss 1408 tcpi_rtt 13441
+[  4]   5.00-6.00   sec  7.29 MBytes  61.1 Mbits/sec    1    102 KBytes       
+tcpi_snd_cwnd 70 tcpi_snd_mss 1408 tcpi_rtt 12441
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    2   96.2 KBytes       
+tcpi_snd_cwnd 64 tcpi_snd_mss 1408 tcpi_rtt 11440
+[  4]   7.00-8.00   sec  7.23 MBytes  60.6 Mbits/sec    3   88.0 KBytes       
+tcpi_snd_cwnd 59 tcpi_snd_mss 1408 tcpi_rtt 10470
+[  4]   8.00-9.00   sec  7.29 MBytes  61.1 Mbits/sec    3   81.1 KBytes       
+tcpi_snd_cwnd 53 tcpi_snd_mss 1408 tcpi_rtt 13105
+send_results
+{
+	"cpu_util_total":	1.001514,
+	"cpu_util_user":	0.195219,
+	"cpu_util_system":	0.806295,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132288640,
+			"retransmits":	54,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.775202,
+	"cpu_util_user":	3.048690,
+	"cpu_util_system":	2.726512,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131298816,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.23 MBytes  60.6 Mbits/sec    2   72.9 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   126 MBytes   106 Mbits/sec   54             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:07:56 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53184 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 75 tcpi_snd_mss 1408 tcpi_rtt 2611
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  32.9 MBytes   276 Mbits/sec   19    103 KBytes       
+tcpi_snd_cwnd 85 tcpi_snd_mss 1408 tcpi_rtt 3555
+[  4]   1.00-2.00   sec  29.5 MBytes   247 Mbits/sec    9    117 KBytes       
+tcpi_snd_cwnd 71 tcpi_snd_mss 1408 tcpi_rtt 12541
+[  4]   2.00-3.00   sec  12.8 MBytes   108 Mbits/sec    7   97.6 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 12504
+[  4]   3.00-4.00   sec  7.29 MBytes  61.1 Mbits/sec    2   94.9 KBytes       
+tcpi_snd_cwnd 69 tcpi_snd_mss 1408 tcpi_rtt 12450
+[  4]   4.00-5.00   sec  7.29 MBytes  61.1 Mbits/sec    2   94.9 KBytes       
+tcpi_snd_cwnd 68 tcpi_snd_mss 1408 tcpi_rtt 12161
+[  4]   5.00-6.00   sec  7.23 MBytes  60.6 Mbits/sec    2   93.5 KBytes       
+tcpi_snd_cwnd 67 tcpi_snd_mss 1408 tcpi_rtt 12098
+[  4]   6.00-7.00   sec  7.29 MBytes  61.1 Mbits/sec    2   92.1 KBytes       
+tcpi_snd_cwnd 66 tcpi_snd_mss 1408 tcpi_rtt 11824
+[  4]   7.00-8.00   sec  7.29 MBytes  61.1 Mbits/sec    2   90.8 KBytes       
+tcpi_snd_cwnd 65 tcpi_snd_mss 1408 tcpi_rtt 11415
+[  4]   8.00-9.00   sec  7.23 MBytes  60.6 Mbits/sec    2   89.4 KBytes       
+tcpi_snd_cwnd 63 tcpi_snd_mss 1408 tcpi_rtt 11260
+send_results
+{
+	"cpu_util_total":	1.121299,
+	"cpu_util_user":	0.189904,
+	"cpu_util_system":	0.931405,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	132236544,
+			"retransmits":	49,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	5.728687,
+	"cpu_util_user":	1.964954,
+	"cpu_util_system":	3.763727,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	131387520,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  7.29 MBytes  61.1 Mbits/sec    2   86.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   126 MBytes   106 Mbits/sec   49             sender
+[  4]   0.00-10.00  sec   125 MBytes   105 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:09:36 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53194 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 164 tcpi_snd_mss 1408 tcpi_rtt 4410
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  43.7 MBytes   367 Mbits/sec  142    226 KBytes       
+tcpi_snd_cwnd 110 tcpi_snd_mss 1408 tcpi_rtt 4512
+[  4]   1.00-2.00   sec  41.1 MBytes   345 Mbits/sec  122    151 KBytes       
+tcpi_snd_cwnd 138 tcpi_snd_mss 1408 tcpi_rtt 4267
+[  4]   2.00-3.00   sec  32.4 MBytes   272 Mbits/sec   11    190 KBytes       
+tcpi_snd_cwnd 137 tcpi_snd_mss 1408 tcpi_rtt 4296
+[  4]   3.00-4.00   sec  41.0 MBytes   344 Mbits/sec   85    188 KBytes       
+tcpi_snd_cwnd 116 tcpi_snd_mss 1408 tcpi_rtt 4682
+[  4]   4.00-5.00   sec  33.2 MBytes   279 Mbits/sec   39    160 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 4385
+[  4]   5.00-6.00   sec  33.2 MBytes   279 Mbits/sec   26    180 KBytes       
+tcpi_snd_cwnd 104 tcpi_snd_mss 1408 tcpi_rtt 4400
+[  4]   6.00-7.00   sec  33.9 MBytes   284 Mbits/sec   52    143 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 4358
+[  4]   7.00-8.00   sec  30.9 MBytes   260 Mbits/sec   11    180 KBytes       
+tcpi_snd_cwnd 109 tcpi_snd_mss 1408 tcpi_rtt 4324
+[  4]   8.00-9.00   sec  31.9 MBytes   267 Mbits/sec   40    150 KBytes       
+tcpi_snd_cwnd 122 tcpi_snd_mss 1408 tcpi_rtt 4767
+send_results
+{
+	"cpu_util_total":	1.896932,
+	"cpu_util_user":	0.180551,
+	"cpu_util_system":	1.716391,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	373970432,
+			"retransmits":	574,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	0.514583,
+	"cpu_util_user":	0.064827,
+	"cpu_util_system":	0.449756,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	372171008,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  35.3 MBytes   296 Mbits/sec   46    168 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   357 MBytes   299 Mbits/sec  574             sender
+[  4]   0.00-10.00  sec   355 MBytes   298 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:09:53 UTC 2019
+send_parameters:
+{
+	"tcp":	true,
+	"omit":	0,
+	"time":	10,
+	"parallel":	1,
+	"len":	131072,
+	"client_version":	"3.1.3"
+}
+Connecting to host 54.233.96.42, port 5201
+SO_SNDBUF is 16384
+[  4] local 10.158.0.2 port 53202 connected to 54.233.96.42 port 5201
+tcpi_snd_cwnd 126 tcpi_snd_mss 1408 tcpi_rtt 2838
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  43.8 MBytes   367 Mbits/sec   22    173 KBytes       
+tcpi_snd_cwnd 108 tcpi_snd_mss 1408 tcpi_rtt 2779
+[  4]   1.00-2.00   sec  48.6 MBytes   408 Mbits/sec   41    148 KBytes       
+tcpi_snd_cwnd 131 tcpi_snd_mss 1408 tcpi_rtt 2952
+[  4]   2.00-3.00   sec  47.2 MBytes   396 Mbits/sec   49    180 KBytes       
+tcpi_snd_cwnd 112 tcpi_snd_mss 1408 tcpi_rtt 2840
+[  4]   3.00-4.00   sec  47.3 MBytes   396 Mbits/sec   11    154 KBytes       
+tcpi_snd_cwnd 129 tcpi_snd_mss 1408 tcpi_rtt 3519
+[  4]   4.00-5.00   sec  45.7 MBytes   383 Mbits/sec   41    177 KBytes       
+tcpi_snd_cwnd 100 tcpi_snd_mss 1408 tcpi_rtt 2901
+[  4]   5.00-6.00   sec  45.3 MBytes   380 Mbits/sec   51    138 KBytes       
+tcpi_snd_cwnd 125 tcpi_snd_mss 1408 tcpi_rtt 3614
+[  4]   6.00-7.00   sec  41.1 MBytes   345 Mbits/sec   17    172 KBytes       
+tcpi_snd_cwnd 101 tcpi_snd_mss 1408 tcpi_rtt 3021
+[  4]   7.00-8.00   sec  41.2 MBytes   346 Mbits/sec   15    139 KBytes       
+tcpi_snd_cwnd 119 tcpi_snd_mss 1408 tcpi_rtt 3634
+[  4]   8.00-9.00   sec  39.1 MBytes   328 Mbits/sec   19    164 KBytes       
+tcpi_snd_cwnd 94 tcpi_snd_mss 1408 tcpi_rtt 3048
+send_results
+{
+	"cpu_util_total":	2.161923,
+	"cpu_util_user":	0.260043,
+	"cpu_util_system":	1.901890,
+	"sender_has_retransmits":	1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	458035072,
+			"retransmits":	278,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+get_results
+{
+	"cpu_util_total":	7.504495,
+	"cpu_util_user":	4.222914,
+	"cpu_util_system":	3.281581,
+	"sender_has_retransmits":	-1,
+	"streams":	[{
+			"id":	1,
+			"bytes":	456750976,
+			"retransmits":	-1,
+			"jitter":	0,
+			"errors":	0,
+			"packets":	0
+		}]
+}
+[  4]   9.00-10.00  sec  37.6 MBytes   316 Mbits/sec   12    129 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   437 MBytes   366 Mbits/sec  278             sender
+[  4]   0.00-10.00  sec   436 MBytes   365 Mbits/sec                  receiver
+
+iperf Done.
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:10 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:17 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:24 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:32 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:39 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:46 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:10:53 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:00 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:07 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:14 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:21 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:28 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:35 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:42 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:49 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:11:56 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:03 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:10 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:17 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:24 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:31 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:38 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:45 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:52 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:12:59 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:06 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:13 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:20 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:28 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:35 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:42 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:49 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:13:56 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:03 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:10 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:17 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:24 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:31 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:38 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:45 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:52 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:14:59 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:06 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:13 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:20 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:27 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:34 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
+Executing client_iperf3
+-------------------------------
+Fri Jun 21 20:15:41 UTC 2019
+iperf3: error - unable to connect to server: Connection refused
