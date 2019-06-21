@@ -32,15 +32,21 @@ aws_stress_path = os.path.join(aws_path, 'stress' + CSV_EXTENSION)
 gc_stress_path = os.path.join(gc_path, 'stress' + CSV_EXTENSION)
 vm_stress_path = os.path.join(vm_path, 'stress' + CSV_EXTENSION)
 
+aws_sysbench_path = os.path.join(aws_path, 'sysbench' + CSV_EXTENSION)
+gc_sysbench_path = os.path.join(gc_path, 'sysbench' + CSV_EXTENSION)
+vm_sysbench_path = os.path.join(vm_path, 'sysbench' + CSV_EXTENSION)
 
-aws_data = pd.read_csv(aws_stress_path)
-gc_data = pd.read_csv(gc_stress_path)
-vm_data = pd.read_csv(vm_stress_path)
-x_axis = [i for i in range(1, len(aws_data.all_metrics)+1)]
 
-plt.plot(x_axis, aws_data.all_metrics)
-plt.plot(x_axis, gc_data.all_metrics)
-plt.plot(x_axis, vm_data.all_metrics)
+aws_stress_data = pd.read_csv(aws_stress_path)
+gc_stress_data = pd.read_csv(gc_stress_path)
+vm_stress_data = pd.read_csv(vm_stress_path)
+x_axis = [i for i in range(1, len(aws_stress_data.all_metrics)+1)]
+
+
+
+plt.plot(x_axis, aws_stress_data.all_metrics)
+plt.plot(x_axis, gc_stress_data.all_metrics)
+plt.plot(x_axis, vm_stress_data.all_metrics)
 plt.legend(['aws', 'gc', 'vm'])
 plt.xlabel('iteration')
 plt.ylabel('all metrics test (bogo ops/s)')
@@ -48,9 +54,9 @@ plt.show()
 
 
 
-plt.plot(x_axis, aws_data.hd)
-plt.plot(x_axis, gc_data.hd)
-plt.plot(x_axis, vm_data.hd)
+plt.plot(x_axis, aws_stress_data.hd)
+plt.plot(x_axis, gc_stress_data.hd)
+plt.plot(x_axis, vm_stress_data.hd)
 plt.legend(['aws', 'gc', 'vm'])
 plt.xlabel('iteration')
 plt.ylabel('hd test (bogo ops/s)')
@@ -58,18 +64,18 @@ plt.show()
 
 
 
-plt.plot(x_axis, aws_data.memory)
-plt.plot(x_axis, gc_data.memory)
-plt.plot(x_axis, vm_data.memory)
+plt.plot(x_axis, aws_stress_data.memory)
+plt.plot(x_axis, gc_stress_data.memory)
+plt.plot(x_axis, vm_stress_data.memory)
 plt.legend(['aws', 'gc', 'vm'])
 plt.xlabel('iteration')
 plt.ylabel('memory test (bogo ops/s)')
 plt.show()
 
 
-aws_all_metrics = integrate(aws_data.all_metrics)
-gc_all_metrics = integrate(gc_data.all_metrics)
-vm_all_metrics = integrate(vm_data.all_metrics)
+aws_all_metrics = integrate(aws_stress_data.all_metrics)
+gc_all_metrics = integrate(gc_stress_data.all_metrics)
+vm_all_metrics = integrate(vm_stress_data.all_metrics)
 
 plt.plot(x_axis, aws_all_metrics)
 plt.plot(x_axis, gc_all_metrics)
@@ -79,13 +85,60 @@ plt.xlabel('iteration')
 plt.ylabel('all metrics test accumulated total (bogo ops)')
 plt.show()
 
+aws_hd = integrate(aws_stress_data.hd)
+gc_hd = integrate(gc_stress_data.hd)
+vm_hd = integrate(vm_stress_data.hd)
+
+plt.plot(x_axis, aws_hd)
+plt.plot(x_axis, gc_hd)
+plt.plot(x_axis, vm_hd)
+plt.legend(['aws', 'gc', 'vm'])
+plt.xlabel('iteration')
+plt.ylabel('hd test accumulated total (bogo ops)')
+plt.show()
 
 
+aws_memory = integrate(aws_stress_data.memory)
+gc_memory = integrate(gc_stress_data.memory)
+vm_memory = integrate(vm_stress_data.memory)
+
+plt.plot(x_axis, aws_memory)
+plt.plot(x_axis, gc_memory)
+plt.plot(x_axis, vm_memory)
+plt.legend(['aws', 'gc', 'vm'])
+plt.xlabel('iteration')
+plt.ylabel('Memory test accumulated total (bogo ops)')
+plt.show()
+
+# ==========================
+
+aws_sysbench_data = pd.read_csv(aws_sysbench_path)
+gc_sysbench_data = pd.read_csv(gc_sysbench_path)
+vm_sysbench_data = pd.read_csv(vm_sysbench_path)
+x_axis = [i for i in range(1, len(aws_sysbench_data.sysbench_primes)+1)]
+
+plt.plot(x_axis, aws_sysbench_data.sysbench_primes)
+plt.plot(x_axis, gc_sysbench_data.sysbench_primes)
+plt.plot(x_axis, vm_sysbench_data.sysbench_primes)
+plt.legend(['aws', 'gc', 'vm'])
+plt.xlabel('iteration')
+plt.ylabel('sysbench primes test (bogo ops/s)')
+plt.show()
 
 
+aws_sysbench = integrate(aws_sysbench_data.sysbench_primes)
+gc_sysbench = integrate(gc_sysbench_data.sysbench_primes)
+vm_sysbench = integrate(vm_sysbench_data.sysbench_primes)
 
+plt.plot(x_axis, aws_sysbench)
+plt.plot(x_axis, gc_sysbench)
+plt.plot(x_axis, vm_sysbench)
+plt.legend(['aws', 'gc', 'vm'])
+plt.xlabel('iteration')
+plt.ylabel('sysbench primes test accumulated total (bogo ops/s)')
+plt.show()
 
-
+# ==========================
 
 
 # print('1')
