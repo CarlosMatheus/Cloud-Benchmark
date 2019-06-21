@@ -129,15 +129,17 @@ def treat_client_iperf3_result(test_name):
         iteration_texts_by_line[idx] = values
 
     results = iteration_texts_by_line
-    print(results)
 
     write_results(test_name, input_file_name, ['server_download', 'server_upload'], results)
 
 
-tests = get_tests_names()
+if os.path.exists('results'):
+    tests = get_tests_names()
 
-for test in tests:
-    treat_stress_result(test)
-    treat_sysbench_result(test)
-    treat_client_ping_result(test)
-    treat_client_iperf3_result(test)
+    for test in tests:
+        treat_stress_result(test)
+        treat_sysbench_result(test)
+        treat_client_ping_result(test)
+        treat_client_iperf3_result(test)
+else:
+    print('Results not found to treat')
