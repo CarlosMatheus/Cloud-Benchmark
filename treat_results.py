@@ -1,12 +1,7 @@
 import os
-from os.path import isdir
+from utils import get_tests_names
 
 dirName = 'treated_results'
-
-
-def get_tests_names():
-    dir_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'results')
-    return [f for f in os.listdir(dir_path) if isdir(os.path.join(dir_path, f))]
 
 
 def create_folder(test_name):
@@ -133,13 +128,20 @@ def treat_client_iperf3_result(test_name):
     write_results(test_name, input_file_name, ['server_download', 'server_upload'], results)
 
 
+def try_run_treat_res(function, test, test_name):
+    try:
+        function(test)
+    except:
+        print("Couldn't run " + test_name + " on " + test)
+
+
 if os.path.exists('results'):
     tests = get_tests_names()
 
     for test in tests:
-        treat_stress_result(test)
-        treat_sysbench_result(test)
-        treat_client_ping_result(test)
-        treat_client_iperf3_result(test)
+        try_run_treat_res(treat_stress_result, test, 'stress')
+        try_run_treat_res(treat_sysbench_result, test, 'sysbench')
+        try_run_treat_res(treat_client_ping_result, test, 'client_ping')
+        try_run_treat_res(treat_client_iperf3_result, test, 'client_iperf3')
 else:
     print('Results not found to treat')
