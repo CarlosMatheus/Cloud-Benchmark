@@ -1,11 +1,17 @@
 from subprocess import check_output
 import requests
 import os
+from os.path import isdir
 
 
 URL = 'https://ipinfo.io/ip'
 dirName = 'results'
 results_file_extension = '.txt'
+
+
+def get_tests_names():
+    dir_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'results')
+    return [f for f in os.listdir(dir_path) if isdir(os.path.join(dir_path, f))]
 
 
 def print_sep_on_console(size):
